@@ -79,7 +79,7 @@ theme: yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:gaoyoubo/mlog.git
+  repo: git@github.com:gaoyoubo/blog.mspring.org.git
   branch: master
 
 jsonContent:
