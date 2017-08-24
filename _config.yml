@@ -14,8 +14,14 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://blog.mspring.org
 root: /
-permalink: :year/:month/:day/:title/
+#permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink/
 permalink_defaults:
+
+# abbrlink config
+abbrlink:
+  alg: crc32  #support crc16(default) and crc32
+  rep: dec    #support dec(default) and hex
 
 # Directory
 source_dir: source
