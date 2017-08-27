@@ -15,7 +15,7 @@ timezone:
 url: http://blog.mspring.org
 root: /
 #permalink: :year/:month/:day/:title/
-permalink: posts/:abbrlink/
+permalink: posts/:abbrlink.html
 permalink_defaults:
 
 # abbrlink config
