@@ -1,4 +1,4 @@
-title: Java解析搜索词库
+title: Java解析搜狗输入法词库
 author: 雾非雾的情思
 abbrlink: 3566971333
 tags:
