@@ -109,7 +109,7 @@ slider:
 smart_menu:
   innerArchive: '所有文章'
   friends: '友链'
-  aboutme: '关于我'
+  # aboutme: '关于我'
 
 friends:
   进击的大黄: http://hrps.me
