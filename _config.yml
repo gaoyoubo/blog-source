@@ -106,3 +106,10 @@ jsonContent:
       excerpt: false
       categories: false
       tags: true
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 100
+  hub:
+  content:
