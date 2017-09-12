@@ -84,9 +84,10 @@ theme: yilia
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
+- type: git
   repo: git@github.com:gaoyoubo/blog.mspring.org.git
   branch: master
+- type: baidu_url_submitter
 
 admin:
   qiniuCfg:
@@ -121,3 +122,9 @@ feed:
   limit: 100
   hub:
   content:
+
+baidu_url_submit:
+  count: 100 ## 提交最新的一个链接
+  host: blog.mspring.org ## 在百度站长平台中注册的域名
+  token: Y0b5JDk00GSjyMu3 ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  path: baidu_urls.txt ## 文本文档的地址，新链接会保存在此文本文档里
