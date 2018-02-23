@@ -5,7 +5,6 @@ tags: []
 categories:
   - 程序员
 date: 2017-03-21 00:00:00
-toc: true
 ---
 awesome-github-vue 是由[OpenDigg](http://www.opendigg.com/)整理并维护的Vue相关开源项目库集合。我们会定期同步[OpenDigg](http://www.opendigg.com/tags/front-vue)上的项目到这里，也欢迎各位[提交项目](https://github.com/opendigg/opending-share-projects)给我们。 
 
