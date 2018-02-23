@@ -1,12 +1,13 @@
+---
 title: 如何将 Debian Linux 中的默认的 Python 版本切换为替代版本
-author: 雾非雾的情思
-abbrlink: 129861721
 tags:
   - python
-  - linux
+  - Linux
 categories: []
-date: 2017-10-13 16:34:00
+abbrlink: 129861722
+date: 2018-02-23 17:11:50
 ---
+
 当你安装 Debian Linux 时，安装过程有可能同时为你提供多个可用的 Python 版本，因此系统中会存在多个 Python 的可执行二进制文件。你可以按照以下方法使用 `ls` 命令来查看你的系统中都有那些 Python 的二进制文件可供使用。
 
 ```shell
