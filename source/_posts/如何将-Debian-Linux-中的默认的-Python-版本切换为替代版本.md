@@ -1,10 +1,10 @@
 ---
 title: 如何将 Debian Linux 中的默认的 Python 版本切换为替代版本
 tags:
-  - python
   - Linux
+  - python
 categories: []
-abbrlink: 129861722
+toc: true
 date: 2018-02-23 17:11:50
 ---
 
