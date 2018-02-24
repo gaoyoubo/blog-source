@@ -172,7 +172,7 @@ profile:
   avatar: http://file.mspring.org/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: 雾非雾的情思
-  author_title: Java Developer
+  author_title: 爱折腾的Java老码农！
   author_description: 临渊羡鱼，不如退而结网。
   location: Wuhan, China
   follow: http://www.mspring.org
@@ -200,6 +200,8 @@ profile:
     - Java
     - Spring
     - Mysql
+    - Redis
+    - Memcached
   # My Personal Works
   works:
     # hexo-client:
