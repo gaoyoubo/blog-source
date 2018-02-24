@@ -1,5 +1,5 @@
 ---
-title: HexoClient
+title: HexoClient说明
 tags:
   - Hexo
   - 程序员
