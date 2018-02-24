@@ -2,7 +2,9 @@
 title: HexoClient
 tags:
   - Hexo
-categories: []
+  - 程序员
+categories:
+  - 程序员
 toc: true
 date: 2018-02-24 14:53:10
 ---
