@@ -2,7 +2,7 @@
 title: HexoClient说明
 tags:
   - Hexo
-  - 程序员
+  - HexoClient
 categories:
   - 程序员
 toc: true

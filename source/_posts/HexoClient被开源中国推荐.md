@@ -2,6 +2,7 @@
 title: HexoClient被开源中国推荐
 tags:
   - Hexo
+  - HexoClient
 categories:
   - 碎碎念
 toc: false
