@@ -1,10 +1,10 @@
-进击的大黄:
-    link: http://hrps.me
-    avatar: http://hrps.me/favicon.ico
-    desc: "擅长java，对前端和python也很有兴趣"
+# 进击的大黄:
+#     link: http://hrps.me
+#     avatar: http://hrps.me/favicon.ico
+#     desc: "擅长java，对前端和python也很有兴趣"
 IAN博客:
     link: https://www.ianisme.com
-    avatar:
+    avatar: https://secure.gravatar.com/avatar/d8ed89f2081f6bda63f9f5fef7d8822f?s=40&d=wavatar&r=g
     desc: "Change the world"
 鸟窝:
     link: http://colobu.com/
