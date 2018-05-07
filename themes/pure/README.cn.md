@@ -1,16 +1,16 @@
 # pure
 
-A brand new default theme for [[Hexo](https://hexo.io)].  [Preview](http://cofess.github.io/) | [English documentation](README.md) | [iconfont](http://devbank.gitee.io/hexo-theme-pure/iconfont/demo_fontclass.html)
+A brand new default theme for [[Hexo](https://hexo.io)].  [Preview](http://cofess.github.io/) | [English documentation](README.md) | [iconfont](http://blog.cofess.com/hexo-theme-pure/iconfont/demo_fontclass.html)
 
 ![](screenshot/pure.png)
 
 ## 特色
 
-- Multiple languages support
-- Comment support
-- Tags page
-- Categories page
-- Social Media
+- 多语言
+- 第三方评论框（友言、来必力、gitment）
+- 可展示个人豆瓣书单
+- 可展示个人github托管项目
+- 可设置支付宝、微信打赏
 
 ## 主题颜色
 
@@ -22,27 +22,39 @@ A brand new default theme for [[Hexo](https://hexo.io)].  [Preview](http://cofes
 
 ![](screenshot/pure-theme-purple.png)
 
-## 外观
+## 页面展示
 
 [首页](http://cofess.github.io/) | [归档](http://cofess.github.io/archives/) | [分类](http://cofess.github.io/categories/) | [标签](http://cofess.github.io/tags/) | [项目](http://cofess.github.io/repository/) | [书单](http://cofess.github.io/books/) | [友链](http://cofess.github.io/links/) | [关于](http://cofess.github.io/about/)
 
-## 启用主题
+## 配置说明
 
-Execute the following command under your `hexo` folder.
+在 Hexo 中有两份主要的配置文件，其名称都是 _config.yml。 其中，一份位于站点根目录下，主要包含 Hexo 本身的配置；另一份位于主题目录下，这份配置由主题作者提供，主要用于配置主题相关的选项。为了描述方便，在以下说明中，将前者称为站点配置文件， 后者称为主题配置文件
+
+## 安装主题
 
 ```
 git clone https://github.com/cofess/hexo-theme-pure.git themes/pure
 ```
-Then modify the property `theme` of the file `hexo/_config.yml`  to `theme: pure`
-
 ## 更新主题
-
-Execute the following command to update theme.
 
 ```
 cd themes/pure
 git pull
 ```
+## 启用pure主题
+
+打开站点配置文件，找到theme字段，将其值更改为 pure
+
+```
+theme: pure
+```
+
+到此，主题安装完成。然后启动Hexo服务验证主题是否正确启用。
+
+```
+hexo s
+```
+
 ## 安装插件
 
 ### [hexo-wordcount](https://github.com/willin/hexo-wordcount)
@@ -71,6 +83,14 @@ npm install hexo-generator-sitemap --save
 npm install hexo-generator-baidu-sitemap --save
 ```
 ## 主题配置
+
+### 设置语言
+
+打开站点配置文件, 将 language 设置成你所需要的语言。建议明确设置你所需要的语言,可选值对应themes\pure\languages目录下语言文件，简体中文配置如下：
+
+```
+language: zh-CN
+```
 
 ### 主题颜色
 
@@ -109,6 +129,14 @@ menu_icons:
   about: icon-cup-fill
 ```
 
+### 设置个人信息
+
+```
+头像在themes\pure\source\images 目录下替换图片即可，捐献的二维码同理。
+
+个人信息大部分都在 主题配置文件 中设置
+```
+
 ### 搜索
 
 主题内置三种站内搜索方式：insight、swiftype、baidu
@@ -136,7 +164,7 @@ share:
 
 ### 评论
 
-主题集成了[disqus](https://disqus.com/)、[友言](http://www.uyan.cc/)、[来必力](https://livere.com/)、[gitment](https://github.com/imsun/gitment)评论系统，选择其中一种即可
+主题集成了[disqus](https://disqus.com/)、[友言](http://www.uyan.cc/)、[来必力](https://livere.com/)、[gitment](https://github.com/imsun/gitment)、[畅言](http://changyan.kuaizhan.com/)评论系统，选择其中一种即可
 
 ```
 # Comment
@@ -155,7 +183,24 @@ comment:
     ClientID: ***
     ClientSecret: ***
     lazy: false
+  changyan:
+    appid: 
+    conf: 
 ```
+
+### 文章浏览量统计
+
+主题内置了不蒜子和leancloud来统计文章浏览量，启用其中之一即可，注意leancloud需要到其官网申请APP ID 和APP Key。
+
+比如，启用不蒜子来统计文章浏览量，在主题配置文件中把busuanzi设置为true即可：
+
+```
+pv:
+  busuanzi:
+    enable: true  # 不蒜子统计
+```
+
+如果不需要第三方来统计浏览量，只需将相应设置改为false即可（设置为false后不会加载第三方JS脚本）
 
 ### Github respostory
 
@@ -206,7 +251,7 @@ Name:
 
 . 这是一个描述 为友情链接描述。
 
-## 文章启用目录索引
+### 文章索引目录
 
 ```
 title: 文章标题
@@ -215,6 +260,19 @@ categories:
 tags:
   - 文章标签
 toc: true # 是否启用内容索引
+```
+
+### sidebar侧边栏
+
+文章侧边栏默认为开启状态，如果某篇文章不想开启侧边栏，在文章开头配置加入“sidebar: none”即可：
+
+```
+title: 文章标题
+categories:
+  - 文章分类
+tags:
+  - 文章标签
+sidebar: none # 是否启用sidebar侧边栏，none：不启用
 ```
 
 ## 博客优化
