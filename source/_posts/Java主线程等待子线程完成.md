@@ -1,9 +1,14 @@
 ---
 title: Java主线程等待子线程完成
-author: 雾非雾的情思
+tags:
+  - Java
+categories:
+  - 程序员
+toc: false
 date: 2014-05-16 00:00:00
 ---
-    import static java.lang.Thread.sleep;
+
+import static java.lang.Thread.sleep;
     
     /**
      *
