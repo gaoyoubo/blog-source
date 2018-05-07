@@ -106,13 +106,19 @@ github:
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 comment:
-  type: gitment  # 启用哪种评论系统
+  type: gitalk  # 启用哪种评论系统
   disqus:  # enter disqus shortname here
   youyan: 
     uid: 1783844 # enter youyan uid 
   livere:
     uid: # enter youyan uid 
   gitment:
+    githubID: gaoyoubo
+    repo: blog.mspring.org
+    ClientID: 8922ef542d831edcc4c9
+    ClientSecret: 2ca1614a9842106c3d399a8bb29bbfd5c5f3e881
+    lazy: false
+  gitalk:
     githubID: gaoyoubo
     repo: blog.mspring.org
     ClientID: 8922ef542d831edcc4c9
