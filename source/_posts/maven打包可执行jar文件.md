@@ -1,12 +1,15 @@
+---
 title: maven打包可执行jar文件
-author: 雾非雾的情思
-abbrlink: 3346592740
-tags: []
-categories: []
+tags:
+  - 程序员
+categories:
+  - 程序员
+toc: false
 date: 2017-03-27 00:00:00
 ---
+
 需要打包有依赖第三方jar包的可执行jar会用到，他会帮你将所有的第三方的jar包都打到同一个jar中，这样就不用手动去设置classpath
-```
+```xml
     <build>
         <plugins>
             <plugin>

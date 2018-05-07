@@ -1,11 +1,13 @@
+---
 title: Go语言第二次实战应用
-author: 雾非雾的情思
-abbrlink: 1345941684
 tags:
   - Go
-categories: []
+categories:
+  - 程序员
+toc: false
 date: 2017-06-14 00:00:00
 ---
+
 使用场景，由于历史原因造成redis计数不准确，需要将数据从数据库中count一次，然后同步到redis。
 
 ### 使用到的包
@@ -13,7 +15,7 @@ date: 2017-06-14 00:00:00
 - github.com/go-redis/redis
 
 ### 具体实现
-```
+```go
 package main
 
 import (

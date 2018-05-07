@@ -1,17 +1,18 @@
+---
 title: Java解析搜狗输入法词库
-author: 雾非雾的情思
-abbrlink: 3566971333
 tags:
   - ElasticSearch
 categories:
   - 程序员
+toc: false
 date: 2017-03-07 00:00:00
 ---
+
 > 解析算法摘自：http://qindongliang.iteye.com/blog/2088416
 
 最近在优化社区搜索结果，之前使用的词库比较老旧很多次都收录不全，所以想到了搜狗输入法词库。但是搜索输入法词库文件是加密之后的，去网上找了一个Java版的解析程序，经测试可用，这里搜藏一下。
 
-```
+```java
 package cn.mucang.saturn.common;
 
 import java.io.File;

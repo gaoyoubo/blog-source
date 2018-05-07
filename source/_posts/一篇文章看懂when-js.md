@@ -1,10 +1,12 @@
+---
 title: 一篇文章看懂when.js
-author: 雾非雾的情思
-abbrlink: 4166033353
-tags: []
+tags:
+  - 程序员
 categories: []
+toc: false
 date: 2017-03-19 00:00:00
 ---
+
 > 最近在拾起很久都没做过的前端，总结下When.js的最常用的场景。
 
 ### 场景1
@@ -12,7 +14,7 @@ date: 2017-03-19 00:00:00
 
 这个是最通用的用法，也是when.js中最长用到的，示例代码如下：
 
-```
+```javascript
 function a () {
   var deferred = when.defer()
     
@@ -43,7 +45,7 @@ a().then(function b(msg){
 ### 场景2
 执行完function a，再执行function b；执行完function b，在执行function c。
 
-```
+```javascript
 function a () {
   var deferred = when.defer()
     

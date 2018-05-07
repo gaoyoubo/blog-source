@@ -1,14 +1,16 @@
+---
 title: Go语言的第一次实战应用
-author: 雾非雾的情思
-abbrlink: 168062982
 tags:
   - Go
-categories: []
+categories:
+  - 程序员
+toc: false
 date: 2017-06-03 00:00:00
 ---
+
 最近开始在熟悉Go语言，正巧产品同学需要分析一些数据，数据是放在ElasticSearch中的，打算使用Go语言来进行分析。
 Go语言的优势就是对linux兼容很好，可以直接成linux上的可执行文件，无需其他任何环境的支持。
-```
+```go
 package main
 
 import (
