@@ -47,7 +47,7 @@ config:
 
 # Pagination
 pagination:
-  number: true
+  number: false
   prev: 
     alwayShow: true
   next:
