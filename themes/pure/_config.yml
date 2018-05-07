@@ -33,7 +33,7 @@ site:
     url: ../images/logo.png
   title: M-LOG # 页面title
   favicon: /favicon.png
-  board: <p>欢迎交流与分享经验!</p> # 站点公告
+  board: <p>临渊羡鱼，不如退而结网!</p> # 站点公告
   copyright: true # 底部版权信息
 
 # config
@@ -141,7 +141,7 @@ douban:
 # PV
 pv:
   busuanzi:
-    enable: true  # 不蒜子统计
+    enable: false  # 不蒜子统计
   leancloud:
     enable: false  # leancloud统计
     app_id: # leancloud <AppID>
