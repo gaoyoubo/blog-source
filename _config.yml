@@ -7,7 +7,7 @@ title: M-LOG
 subtitle: 临渊羡鱼，不如退而结网。
 description:
 author: 雾非雾的情思
-language:
+language: zh-CN
 timezone:
 
 # URL
@@ -98,7 +98,7 @@ jsonContent:
     permalink: true
     excerpt: true
     keywords: true # but only if root keywords option language was set
-    text: true
+    text: false
     raw: false
     content: false
   posts:
@@ -112,7 +112,7 @@ jsonContent:
     permalink: true
     excerpt: true
     keywords: true # but only if root keywords option language was set
-    text: true
+    text: false
     raw: false
     content: false
     categories: true
