@@ -1,8 +1,9 @@
 ---
 title: hexo-client 1.1.3更新
 tags:
-  - Hexo
   - 程序员
+  - Hexo
+  - HexoClient
 categories:
   - 程序员
 toc: false
