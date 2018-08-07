@@ -2,11 +2,16 @@
   <div class="article-header">
     <%- partial('post/title', {class_name: 'article-title'}) %>
   </div>
+  <!-- 
   <% if (post.excerpt){ %>
   <div class="article-entry text-muted" itemprop="description">
     <%- post.excerpt %>
   </div>
-  <% } %>
+  <% } %> 
+  -->
+  <div class="article-entry text-muted" itemprop="description">
+    <%- post.content %>
+  </div>
   <p class="article-meta">
     <%- partial('post/date', {class_name: 'article-date', date_format: 'MMM D'}) %>
     <%- partial('post/category') %>
