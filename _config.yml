@@ -74,7 +74,8 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 ## yilia主题首页：https://github.com/litten/hexo-theme-yilia
 ## pure主题首页：https://github.com/cofess/hexo-theme-pure
-theme: pure
+## anatole主题首页：https://github.com/Ben02/hexo-theme-Anatole
+theme: anatole
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
