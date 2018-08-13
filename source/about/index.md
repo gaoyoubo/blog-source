@@ -5,7 +5,11 @@ layout: about
 comments: false
 sidebar: custom
 ---
+
 ```
+Java老码农
+```
+<!-- ```
 爱编程，爱分享，爱咖啡可乐
 爱尝试，爱跨越，也爱享受生活
 我擅长技术，崇尚简单的快乐和幸福
@@ -16,4 +20,4 @@ Java、Hibernate、Spring、Sturts、Lucene、Axis，我会
 C#、Javascript、Jquery、ExtJs、GWT，Android我会
 但这些都是工具
 经验是我的沉淀，想象与创造才是我的能力。
-```
+``` -->
