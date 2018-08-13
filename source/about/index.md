@@ -2,7 +2,7 @@
 title: 关于
 description: 
 layout: about
-comments: true
+comments: false
 sidebar: custom
 ---
 
