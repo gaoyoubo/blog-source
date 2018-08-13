@@ -9,14 +9,17 @@ sidebar: none
  - link: https://www.ianisme.com
  - avatar: https://secure.gravatar.com/avatar/d8ed89f2081f6bda63f9f5fef7d8822f?s=40&d=wavatar&r=g
  - desc: "Change the world"
+
 ## 鸟窝
  - link: http://colobu.com/
  - avatar:
  - desc: "大道至简"
+
 ## 创造狮
  - link: http://chuangzaoshi.com/
  - avatar: /images/favatar/chuangzaoshi-logo.png
  - desc: 为创意工作者而设计
+
 ## 腾讯设计导航
  - link: http://idesign.qq.com/
  - avatar: /images/favatar/idesign-logo.png
