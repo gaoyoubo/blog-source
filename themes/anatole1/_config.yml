@@ -1,0 +1,27 @@
+# Blog
+keywords: Java,Spring,MySql,Redis,Memcached,Linux
+author: Arthur Gao,gaoyoubo@foxmail.com
+description: 临渊羡鱼不如退而结网.
+avatar: http://file.mspring.org/avatar.jpg
+#avatar: /images/favicon.png
+
+# Social Accounts
+twitter: 
+rss: /atom.xml
+weibo: gaoyoubo1989
+instagram: 
+github: gaoyoubo
+facebook: 
+
+# Comment
+comment:
+  type: changyan  # 启用哪种评论系统
+  gitalk:
+    githubId: gaoyoubo
+    repo: blog.mspring.org
+    clientId: 8922ef542d831edcc4c9
+    clientSecret: 2ca1614a9842106c3d399a8bb29bbfd5c5f3e881
+  changyan:
+    appid: cysSqmqVH
+    conf: prod_d6d2d9a3b3e781328d6d6954e9c61ac1
+
