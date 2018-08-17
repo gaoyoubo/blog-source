@@ -3,12 +3,16 @@ mixin make_post(item, is_detail)
 		.post-title
 			h3
 				if is_detail
-					a= item.title
+					a= titlecase(item.title)
 				else
-					a(href= url_for(item.path))= item.title
+					a(href= url_for(item.path))= titlecase(item.title)
 		if is_detail
-			//if item.toc
-			//	div.toc-container!= toc(item.content)
+			if item.toc
+				div.toc-container
+					div.toc-title
+						span 目录
+						a(href='#') [隐藏]
+					div.toc-content!= toc(item.content)
 			.post-content!= item.content
 		else
 			.post-content
