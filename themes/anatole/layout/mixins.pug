@@ -7,12 +7,6 @@ mixin make_post(item, is_detail)
 				else
 					a(href= url_for(item.path))= titlecase(item.title)
 		if is_detail
-			if item.toc
-				div.toc-container
-					div.toc-title
-						span 目录
-						a(href='#') [隐藏]
-					div.toc-content!= toc(item.content)
 			.post-content!= item.content
 		else
 			.post-content
@@ -34,6 +28,14 @@ mixin make_post(item, is_detail)
 							a.tag(href=config.root + item.path, title= item.name)= item.name + " "
 					- });
 
+mixin make_toc(item)
+	if item.toc
+		div.toc-container
+			div.toc-title
+				i.fa.fa-list
+				span 目录
+				a(href='#') [隐藏]
+			div.toc-content!= toc(item.content)
 
 mixin make_pager()
 	- var prev = page.prev_link
