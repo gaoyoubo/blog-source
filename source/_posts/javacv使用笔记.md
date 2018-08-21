@@ -26,7 +26,7 @@ mvn package exec:java -Dplatform.dependencies -Dexec.mainClass=Demo
 ```
 
 ## 警告：Warning: data is not aligned! This can lead to a speedloss
-出现这个警告是因为ffmpeg要求视频的宽度必须是16的倍数，高度必须是2的倍数，按要求修改下宽高就好了。
+出现这个警告是因为ffmpeg要求视频的宽度必须是32的倍数，高度必须是2的倍数，按要求修改下宽高就好了。
 
 ## 使用
 ```java
