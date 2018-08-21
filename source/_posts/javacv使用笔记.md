@@ -5,7 +5,7 @@ tags:
   - Java
 categories:
   - 程序员
-toc: false
+toc: true
 date: 2018-08-14 12:56:36
 ---
 
@@ -149,4 +149,46 @@ public class OpenCVUtils {
 
 }
 
+```
+
+## 图片合成视频简单的封装
+```java
+private static class VideoRecorder implements Closeable {
+        private FFmpegFrameRecorder recorder;
+
+        public VideoRecorder(String output, int width, int height) throws FrameRecorder.Exception {
+            recorder = new FFmpegFrameRecorder(output, width, height);
+            recorder.setVideoCodec(avcodec.AV_CODEC_ID_H264);
+            recorder.setFormat("mp4");
+            recorder.setFrameRate(FPS);
+            recorder.setAudioBitrate(192000);
+            recorder.setAudioQuality(0);
+            recorder.setSampleRate(44100);
+            recorder.setAudioChannels(2);
+            recorder.start();
+        }
+
+        public void addFrame(BufferedImage image) throws FrameRecorder.Exception {
+            Frame frame = Java2DFrameUtils.toFrame(image);
+            recorder.record(frame, avutil.AV_PIX_FMT_ARGB);
+        }
+
+        public void addAudio(File audioFile) throws FrameGrabber.Exception, FrameRecorder.Exception {
+            if (audioFile == null || !audioFile.exists()) {
+                return;
+            }
+            try (FFmpegFrameGrabber grabber = FFmpegFrameGrabber.createDefault(audioFile)) {
+                grabber.start();
+                Frame frame;
+                while ((frame = grabber.grabSamples()) != null) {
+                    recorder.recordSamples(frame.sampleRate, frame.audioChannels, frame.samples);
+                }
+            }
+        }
+
+        @Override
+        public void close() throws IOException {
+            recorder.close();
+        }
+    }
 ```
