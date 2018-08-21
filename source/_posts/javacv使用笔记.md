@@ -10,7 +10,7 @@ date: 2018-08-14 12:56:36
 ---
 
 ## 使用过程中遇到的异常
-### Could not initialize class org.bytedeco.javacpp.avutil
+### 异常：Could not initialize class org.bytedeco.javacpp.avutil
 ```
 Exception in thread "main" java.lang.NoClassDefFoundError: Could not initialize class org.bytedeco.javacpp.avutil
 at java.lang.Class.forName0(Native Method)
@@ -30,7 +30,6 @@ mvn package exec:java -Dplatform.dependencies -Dexec.mainClass=Demo
 出现这个警告是因为ffmpeg要求视频的宽度必须是32的倍数，高度必须是2的倍数，按要求修改下宽高就好了。
 
 ## 使用示例
-### 一个
 ```java
 import com.google.common.collect.Lists;
 import org.apache.commons.io.FileUtils;
