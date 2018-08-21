@@ -9,7 +9,8 @@ toc: true
 date: 2018-08-14 12:56:36
 ---
 
-## 异常：Could not initialize class org.bytedeco.javacpp.avutil
+## 使用过程中遇到的异常
+### Could not initialize class org.bytedeco.javacpp.avutil
 ```
 Exception in thread "main" java.lang.NoClassDefFoundError: Could not initialize class org.bytedeco.javacpp.avutil
 at java.lang.Class.forName0(Native Method)
@@ -25,12 +26,12 @@ at org.bytedeco.javacv.FFmpegFrameGrabber.start(FFmpegFrameGrabber.java:340)
 mvn package exec:java -Dplatform.dependencies -Dexec.mainClass=Demo
 ```
 
-## 警告：Warning: data is not aligned! This can lead to a speedloss
+### 警告：Warning: data is not aligned! This can lead to a speedloss
 出现这个警告是因为ffmpeg要求视频的宽度必须是32的倍数，高度必须是2的倍数，按要求修改下宽高就好了。
 
-## 使用
+## 使用示例
+### 一个
 ```java
-
 import com.google.common.collect.Lists;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
@@ -194,4 +195,38 @@ private static class VideoRecorder implements Closeable {
             recorder.close();
         }
     }
+```
+
+## 解决maven打包时将不必要的包引入进来的问题
+我在实际使用中只用到了`ffmpeg`，但是打包的时候却将flycapture、libdc1394、libfreenect、artoolkitplus、tesseract...等包都打进来了，这些都是我不需要的，下面贴出我的maven配置示例。
+```xml
+<dependencies>
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>javacv</artifactId>
+            <version>${javacpp.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.bytedeco.javacpp-presets</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.bytedeco.javacpp-presets</groupId>
+            <artifactId>opencv</artifactId>
+            <version>3.4.2-${javacpp.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bytedeco.javacpp-presets</groupId>
+            <artifactId>ffmpeg</artifactId>
+            <version>4.0.1-${javacpp.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bytedeco.javacpp-presets</groupId>
+            <artifactId>ffmpeg</artifactId>
+            <version>4.0.1-${javacpp.version}</version>
+            <classifier>${javacpp.platform.dependencies}</classifier>
+        </dependency>
+    </dependencies>
 ```
