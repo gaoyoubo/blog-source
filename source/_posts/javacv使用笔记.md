@@ -199,6 +199,12 @@ private static class VideoRecorder implements Closeable {
 ## 解决maven打包时将不必要的包引入进来的问题
 我在实际使用中只用到了`ffmpeg`，但是打包的时候却将flycapture、libdc1394、libfreenect、artoolkitplus、tesseract...等包都打进来了，这些都是我不需要的，下面贴出我的maven配置示例。
 ```xml
+<properties>
+    <javacpp.version>1.4.2</javacpp.version>
+    <!-- 这里要根据自己的平台选择不同的依赖 -->
+    <!--<javacpp.platform.dependencies>linux-x86_64</javacpp.platform.dependencies>-->
+    <javacpp.platform.dependencies>macosx-x86_64</javacpp.platform.dependencies>
+</properties>
 <dependencies>
         <dependency>
             <groupId>org.bytedeco</groupId>
