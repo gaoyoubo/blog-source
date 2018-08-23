@@ -111,7 +111,7 @@ jsonContent:
     permalink: true
     excerpt: true
     keywords: true # but only if root keywords option language was set
-    text: false
+    text: true
     raw: false
     content: false
   posts:
