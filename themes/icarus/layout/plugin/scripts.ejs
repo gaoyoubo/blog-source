@@ -1,9 +1,9 @@
 <% if (typeof(isHead) !== 'undefined' && isHead) { %>
     <% if (theme.plugins.lightgallery) { %>
-        <%- css('libs/lightgallery/css/lightgallery.min') %>
+        <%- css('//cdn.staticfile.org/lightgallery/1.6.11/css/lightgallery.min') %>
     <% } %>
     <% if (theme.plugins.justifiedgallery) { %>
-        <%- css('libs/justified-gallery/justifiedGallery.min') %>
+        <%- css('//cdn.staticfile.org/justifiedGallery/3.7.0/css/justifiedGallery.min') %>
     <% } %>
     <% if (theme.plugins.google_analytics) { %>
         <%- partial('plugin/google-analytics') %>
@@ -16,18 +16,10 @@
     <% } %>
 <% } else { %>
     <% if (theme.plugins.lightgallery) { %>
-        <%- js('libs/lightgallery/js/lightgallery.min') %>
-        <%- js('libs/lightgallery/js/lg-thumbnail.min') %>
-        <%- js('libs/lightgallery/js/lg-pager.min') %>
-        <%- js('libs/lightgallery/js/lg-autoplay.min') %>
-        <%- js('libs/lightgallery/js/lg-fullscreen.min') %>
-        <%- js('libs/lightgallery/js/lg-zoom.min') %>
-        <%- js('libs/lightgallery/js/lg-hash.min') %>
-        <%- js('libs/lightgallery/js/lg-share.min') %>
-        <%- js('libs/lightgallery/js/lg-video.min') %>
+        <%- js('//cdn.staticfile.org/lightgallery/1.6.11/js/lightgallery.min') %>
     <% } %>
     <% if (theme.plugins.justifiedgallery) { %>
-        <%- js('libs/justified-gallery/jquery.justifiedGallery.min') %>
+        <%- js('//cdn.staticfile.org/justifiedGallery/3.7.0/js/jquery.justifiedGallery.min') %>
     <% } %>
     <% if (theme.plugins.mathjax) { %>
         <script type="text/x-mathjax-config">
