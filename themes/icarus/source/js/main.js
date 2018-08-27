@@ -10,19 +10,19 @@
       }
 
       if ($(this).parent().prop('tagName') !== 'A') {
-        $(this).wrap('<a href="' + ($(this).attr('data-imgbig') ? $(this).attr('data-imgbig') : this.src) + '" title="' + this.alt + '" class="gallery-item"></a>')
+        var src = $(this).attr('data-imgbig') ? $(this).attr('data-imgbig') : this.src
+        $(this).wrap('<a href="' + src + '" data-src="' + src + '" title="' + this.alt + '" class="gallery-item"></a>')
       }
     })
   })
-  debugger
-  if (typeof lightGallery != 'undefined') {
+  // if (typeof lightGallery != 'undefined') {
     $('.article-entry').lightGallery({
       selector: '.gallery-item',
       thumbnail: true,
       animateThumb: false,
       showThumbByDefault: false
     })
-  }
+  // }
   if (!!$.prototype.justifiedGallery) {  // if justifiedGallery method is defined
     var options = {
       rowHeight: 140,
