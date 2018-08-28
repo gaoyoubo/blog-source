@@ -2,6 +2,7 @@
 title: 生产环境下JAVA进程高CPU占用故障排查
 tags:
   - 程序员
+  - Java
 categories:
   - 程序员
 toc: false
