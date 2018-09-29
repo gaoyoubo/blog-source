@@ -123,6 +123,8 @@ originContent: >-
 
   # 训练
 
+  TODO
+
 
   # 参考文档
 
@@ -221,7 +223,7 @@ OCR Engine modes:
 ```
 
 ### 识别展示
-![](http://file.mspring.org/845aed98f69955ad7fa14881c6e82f9a)
+![](http://file.mspring.org/622b6c570f6862e90a1d483e99807375)
 
 ## 识别后处理
 
