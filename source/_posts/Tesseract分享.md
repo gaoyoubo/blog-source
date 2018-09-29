@@ -4,7 +4,7 @@ tags:
   - tesseract
   - ocr
 originContent: >-
-  > 本分享基于tesseract4.x，4.x版本新增了
+  > 本分享基于tesseract4.x
 
 
   ## 识别前处理
@@ -143,7 +143,7 @@ originContent: >-
   LSTM原理及实现：[https://blog.csdn.net/gzj_1101/article/details/79376798](https://blog.csdn.net/gzj_1101/article/details/79376798)
 categories:
   - 碎碎念
-toc: false
+toc: true
 date: 2018-09-28 16:04:56
 ---
 
