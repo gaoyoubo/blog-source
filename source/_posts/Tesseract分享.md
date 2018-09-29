@@ -7,6 +7,8 @@ originContent: >-
   > 本分享基于tesseract4.x
 
 
+  # 识别
+
   ## 识别前处理
 
 
@@ -119,10 +121,10 @@ originContent: >-
   ```
 
 
-  ## 训练识别库
+  # 训练
 
 
-  ## 参考文档
+  # 参考文档
 
   -
   编译安装文档：[https://github.com/tesseract-ocr/tesseract/wiki/Compiling](https://github.com/tesseract-ocr/tesseract/wiki/Compiling)
@@ -149,6 +151,7 @@ date: 2018-09-28 16:04:56
 
 > 本分享基于tesseract4.x
 
+# 识别
 ## 识别前处理
 
 ### 调整尺寸
@@ -231,9 +234,10 @@ OCR Engine modes:
 ...
 ```
 
-## 训练识别库
+# 训练
+TODO
 
-## 参考文档
+# 参考文档
 - 编译安装文档：[https://github.com/tesseract-ocr/tesseract/wiki/Compiling](https://github.com/tesseract-ocr/tesseract/wiki/Compiling)
 - 训练文档：[https://github.com/tesseract-ocr/tesseract/wiki/TrainingTesseract-4.00](https://github.com/tesseract-ocr/tesseract/wiki/TrainingTesseract-4.00)
 - 如何提高识别质量：[https://github.com/tesseract-ocr/tesseract/wiki/ImproveQuality](https://github.com/tesseract-ocr/tesseract/wiki/ImproveQuality)
