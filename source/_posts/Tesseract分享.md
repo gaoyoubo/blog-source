@@ -297,6 +297,11 @@ OCR Engine modes:
 
 很明显，我自己训练的识别库能够100%准确的识别出图片中的文字，那么我们接下来看下如何去训练自己的识别库。
 
+```
+TODO
+https://blog.csdn.net/dcrmg/article/details/78233459?locationNum=7&fps=1
+https://www.jianshu.com/p/5c8c6b170f6f
+```
 
 # 参考文档
 - 编译安装文档：[https://github.com/tesseract-ocr/tesseract/wiki/Compiling](https://github.com/tesseract-ocr/tesseract/wiki/Compiling)
