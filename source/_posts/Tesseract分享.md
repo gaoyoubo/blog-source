@@ -7,7 +7,20 @@ originContent: >-
   > 本分享基于tesseract4.x
 
 
+  # 认识Tesseract
+
+
+  项目主页：https://github.com/tesseract-ocr/tesseract
+
+
+  Tesseract的OCR引擎最先由HP实验室于1985年开始研发，至1995年时已经成为OCR业内最准确的三款识别引擎之一。然而，HP不久便决定放弃OCR业务，Tesseract也从此尘封。
+
+
+  数年以后，HP意识到，与其将Tesseract束之高阁，不如贡献给开源软件业，让其重焕新生－－2005年，Tesseract由美国内华达州信息技术研究所获得，并求诸于Google对Tesseract进行改进、消除Bug、优化工作。
+
+
   # 识别
+
 
   ## 识别前处理
 
@@ -38,10 +51,12 @@ originContent: >-
 
   例如下图，我们要从图片中识别出违章信息，包括违章的时间、地点、原因、罚了多少钱、扣了多少分。如果直接拿原图去进行识别，假设所有的字都是别正确，那么这些字的排版也是不是我们最终想要的样子，并且图片中有很多的信息是我们不需要的。所以，可以在识别前分别将图片中时间、地点、原因、金额、分数分别切出多张图，将其他无用的信息都剔除掉。这样做的好处一是单行文字识别对tesseract很友好，二是针对时间、金额、分数这些数字内容可以针对性的使用数字语言库进行识别来提高识别率。
 
+
   ![](http://file.mspring.org/b226ac77f29b72e16281c0005f346369)
 
 
   #### 多行、多列切割
+
 
   ![](http://file.mspring.org/83045a1b6f5ee169e6a6502800f71fcd)
 
@@ -50,6 +65,7 @@ originContent: >-
 
   如果图片中的文字是倾斜的，会导致Tesseract的行数据分割不准确，严重影响ocr的效果，所以在识别之前可以先旋转图片，使文字保持水平。
 
+
   ![](http://file.mspring.org/6ea6ef1ab86e35988b33c054f0c31df1)
 
 
@@ -57,6 +73,7 @@ originContent: >-
 
 
   ### 命令行使用手册
+
 
   ```shell
 
@@ -133,7 +150,15 @@ originContent: >-
 
   # 训练
 
-  TODO
+
+  对于一些特殊的字体，使用Tesseract自带的识别库，识别效果并不是那么理想。所以我们可以训练自己的识别库。例如下图的手写字体，我们对比下使用官方提供的`chi_sim`库和我训练的`chi_my`库的识别效果。
+
+
+  ![](http://file.mspring.org/c448cb53f68834cc2aaf0ee49c822973)
+
+
+  很明显，我自己训练的识别库能够100%准确的识别出图片中的文字，那么我们接下来看下如何去训练自己的识别库。
+
 
 
   # 参考文档
@@ -163,7 +188,16 @@ date: 2018-09-28 16:04:56
 
 > 本分享基于tesseract4.x
 
+# 认识Tesseract
+
+项目主页：https://github.com/tesseract-ocr/tesseract
+
+Tesseract的OCR引擎最先由HP实验室于1985年开始研发，至1995年时已经成为OCR业内最准确的三款识别引擎之一。然而，HP不久便决定放弃OCR业务，Tesseract也从此尘封。
+
+数年以后，HP意识到，与其将Tesseract束之高阁，不如贡献给开源软件业，让其重焕新生－－2005年，Tesseract由美国内华达州信息技术研究所获得，并求诸于Google对Tesseract进行改进、消除Bug、优化工作。
+
 # 识别
+
 ## 识别前处理
 
 ### 调整尺寸
@@ -181,18 +215,22 @@ Tesseract对于`dpi >= 300`的图片有更好的识别效果。所以在识别�
 
 #### 简单切割
 例如下图，我们要从图片中识别出违章信息，包括违章的时间、地点、原因、罚了多少钱、扣了多少分。如果直接拿原图去进行识别，假设所有的字都是别正确，那么这些字的排版也是不是我们最终想要的样子，并且图片中有很多的信息是我们不需要的。所以，可以在识别前分别将图片中时间、地点、原因、金额、分数分别切出多张图，将其他无用的信息都剔除掉。这样做的好处一是单行文字识别对tesseract很友好，二是针对时间、金额、分数这些数字内容可以针对性的使用数字语言库进行识别来提高识别率。
+
 ![](http://file.mspring.org/b226ac77f29b72e16281c0005f346369)
 
 #### 多行、多列切割
+
 ![](http://file.mspring.org/83045a1b6f5ee169e6a6502800f71fcd)
 
 #### 图片旋转
 如果图片中的文字是倾斜的，会导致Tesseract的行数据分割不准确，严重影响ocr的效果，所以在识别之前可以先旋转图片，使文字保持水平。
+
 ![](http://file.mspring.org/6ea6ef1ab86e35988b33c054f0c31df1)
 
 ## 命令号调用识别
 
 ### 命令行使用手册
+
 ```shell
 ➜  bin ./tesseract --help-extra
 Usage:
@@ -252,7 +290,13 @@ OCR Engine modes:
 ```
 
 # 训练
-TODO
+
+对于一些特殊的字体，使用Tesseract自带的识别库，识别效果并不是那么理想。所以我们可以训练自己的识别库。例如下图的手写字体，我们对比下使用官方提供的`chi_sim`库和我训练的`chi_my`库的识别效果。
+
+![](http://file.mspring.org/c448cb53f68834cc2aaf0ee49c822973)
+
+很明显，我自己训练的识别库能够100%准确的识别出图片中的文字，那么我们接下来看下如何去训练自己的识别库。
+
 
 # 参考文档
 - 编译安装文档：[https://github.com/tesseract-ocr/tesseract/wiki/Compiling](https://github.com/tesseract-ocr/tesseract/wiki/Compiling)
