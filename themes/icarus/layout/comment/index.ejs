@@ -2,6 +2,8 @@
     <% if (theme.comment.type === 'changyan') { %>
         <section id="comments"><%- partial('comment/changyan') %></section>
     <% } else if (theme.comment.type === 'gitalk') {%>
-        <section id="comments"><%- partial('comment/gitalk') %></section>
+        <%- partial('comment/gitalk') %>
+    <% } else if (theme.comment.type === 'valine') {%>
+        <%- partial('comment/valine') %>
     <% } %>
 <% } %>
