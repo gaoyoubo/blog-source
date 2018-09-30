@@ -85,11 +85,16 @@ originContent: >-
 
 
   文章转载自：http://artwalk.github.io/2018/05/06/How-to-build-tesseract-4-beta-on-macOS/
+
+
+  转载这篇文章之后找到了官方的文档：https://github.com/tesseract-ocr/tesseract/wiki/Compiling
 categories:
   - 程序员
 toc: true
 date: 2018-09-28 15:23:38
 ---
+
+转载这篇文章之后找到了官方的文档，建议官方文档，官方文档描述更全面。官方文档地址：https://github.com/tesseract-ocr/tesseract/wiki/Compiling
 
 ```shell
 brew info tesseract
@@ -133,5 +138,3 @@ cat image.txt
 OK, it is still terrible under the `Song typeface` font. It need to be trained a new model by myself.
 
 文章转载自：http://artwalk.github.io/2018/05/06/How-to-build-tesseract-4-beta-on-macOS/
-
-转载这篇文章之后找到了官方的文档：https://github.com/tesseract-ocr/tesseract/wiki/Compiling
