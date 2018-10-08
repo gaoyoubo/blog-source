@@ -61,7 +61,7 @@ originContent: >-
   ![](http://file.mspring.org/83045a1b6f5ee169e6a6502800f71fcd)
 
 
-  #### 图片旋转
+  ### 图片旋转
 
   如果图片中的文字是倾斜的，会导致Tesseract的行数据分割不准确，严重影响ocr的效果，所以在识别之前可以先旋转图片，使文字保持水平。
 
@@ -126,6 +126,7 @@ originContent: >-
 
   效果如下图所示，对于这种排版整齐、文字清晰、大小合适的图片，直接使用官方提供的中文语言库，识别效果是很好的，下图就做到了100%正确识别。所以一个合适的输入图片，对于提高识别的正确率是有很大的帮助的，识别前图片的预处理就显得尤为重要。
 
+
   ![](http://file.mspring.org/622b6c570f6862e90a1d483e99807375)
 
 
@@ -163,8 +164,7 @@ originContent: >-
   ## jTessBoxEditor
 
 
-  jTessBoxEditor是一个第三方工具，借助这个工具能够很方便的去训练一个自己的字库。jTessBoxEditor下载地址：https://sourceforge.net/projects/vietocr/files/jTessBoxEditor/ 
-  ，
+  jTessBoxEditor是一个第三方工具，借助这个工具能够很方便的去训练一个自己的字库。jTessBoxEditor下载地址：https://sourceforge.net/projects/vietocr/files/jTessBoxEditor/
   我接下来的介绍中所使用的版本为`jTessBoxEditorFX-2.1.0`。jTessBoxEditor其实是对Tesseract命令的GUI封装，该工具其实最终也是调用的Tesseract相关的命令来完成训练工作。
 
 
@@ -175,6 +175,7 @@ originContent: >-
 
 
   ![](http://file.mspring.org/50c66485033fffebbb0be0928f040cff)
+
 
   下面介绍下上图标注的5个步骤
 
@@ -204,7 +205,9 @@ originContent: >-
 
   在生成box文件之后，我们可以使用jTessEditor文件打开查看下box文件。如下图：
 
+
   ![](http://file.mspring.org/1ccb42dbca0cab4cf0bd73a25bf16265)
+
 
   我们对照着生成的box文件查看一下：
 
@@ -252,6 +255,7 @@ originContent: >-
 
   当然我们使用命令生成的box文件是有很多错误的，接下来就需要使用jTessBoxEditor来编辑box文件，调整文字、xy坐标、宽高来准确的标注图片中的每个字。调整完成的结果如下图：
 
+
   ![](http://file.mspring.org/4a67a286b05a71ab8642754ee75006f1)
 
 
@@ -266,7 +270,7 @@ originContent: >-
   Data`目录下生成有一个`tessdata`文件夹，文件夹文件夹中有个`chi_my.tessdata`文件就是我们的训练结果。我们需要将这个文件copy到`%TESSERACT_HOME%/share/tessdata`就可以使用了。
 
 
-  ### 基于字体进行训练
+  ### 基于字体训练
 
   >
   字体各式各样，很多情况下我们在识别图片中文字的时候可能由于字体问题，导致识别并不准确。所以就有为某种字体单独训练识别库的需求。对于根据字体进行训练`jTessBoxEditor`也做了很好的支持。
@@ -347,7 +351,7 @@ Tesseract对于`dpi >= 300`的图片有更好的识别效果。所以在识别�
 
 ![](http://file.mspring.org/83045a1b6f5ee169e6a6502800f71fcd)
 
-#### 图片旋转
+### 图片旋转
 如果图片中的文字是倾斜的，会导致Tesseract的行数据分割不准确，严重影响ocr的效果，所以在识别之前可以先旋转图片，使文字保持水平。
 
 ![](http://file.mspring.org/6ea6ef1ab86e35988b33c054f0c31df1)
@@ -401,6 +405,7 @@ OCR Engine modes:
 
 ### 识别效果展示
 效果如下图所示，对于这种排版整齐、文字清晰、大小合适的图片，直接使用官方提供的中文语言库，识别效果是很好的，下图就做到了100%正确识别。所以一个合适的输入图片，对于提高识别的正确率是有很大的帮助的，识别前图片的预处理就显得尤为重要。
+
 ![](http://file.mspring.org/622b6c570f6862e90a1d483e99807375)
 
 ## 识别后处理
@@ -424,13 +429,14 @@ OCR Engine modes:
 
 ## jTessBoxEditor
 
-jTessBoxEditor是一个第三方工具，借助这个工具能够很方便的去训练一个自己的字库。jTessBoxEditor下载地址：https://sourceforge.net/projects/vietocr/files/jTessBoxEditor/  ， 我接下来的介绍中所使用的版本为`jTessBoxEditorFX-2.1.0`。jTessBoxEditor其实是对Tesseract命令的GUI封装，该工具其实最终也是调用的Tesseract相关的命令来完成训练工作。
+jTessBoxEditor是一个第三方工具，借助这个工具能够很方便的去训练一个自己的字库。jTessBoxEditor下载地址：https://sourceforge.net/projects/vietocr/files/jTessBoxEditor/ 我接下来的介绍中所使用的版本为`jTessBoxEditorFX-2.1.0`。jTessBoxEditor其实是对Tesseract命令的GUI封装，该工具其实最终也是调用的Tesseract相关的命令来完成训练工作。
 
 ### 基于图片训练
 
 #### 根据图片生成box文件
 
 ![](http://file.mspring.org/50c66485033fffebbb0be0928f040cff)
+
 下面介绍下上图标注的5个步骤
 1. tesseract的安装目录，在这个目录下可以找到tesseract等可执行文件。
 2. 需要训练的图片所在的路径。
@@ -445,7 +451,9 @@ jTessBoxEditor是一个第三方工具，借助这个工具能够很方便的去
 
 #### 编辑box文件
 在生成box文件之后，我们可以使用jTessEditor文件打开查看下box文件。如下图：
+
 ![](http://file.mspring.org/1ccb42dbca0cab4cf0bd73a25bf16265)
+
 我们对照着生成的box文件查看一下：
 ```
 轲 69 17 165 72 0
@@ -469,11 +477,14 @@ jTessBoxEditor是一个第三方工具，借助这个工具能够很方便的去
 字 x坐标 y坐标 宽度 高度
 ```
 当然我们使用命令生成的box文件是有很多错误的，接下来就需要使用jTessBoxEditor来编辑box文件，调整文字、xy坐标、宽高来准确的标注图片中的每个字。调整完成的结果如下图：
+
 ![](http://file.mspring.org/4a67a286b05a71ab8642754ee75006f1)
 
 #### 完成训练
 在完成box文件的编辑之后就可以使用box文件进行训练了，如下图：
+
 ![](http://file.mspring.org/e683e47cb930394065857b920ac8795d)
+
 我们这里需要选择`Train with Existing Box`，进行训练，训练过程中具体使用了哪些命令，都可以在控制台中查看。训练完成之后会在`Training Data`目录下生成有一个`tessdata`文件夹，文件夹文件夹中有个`chi_my.tessdata`文件就是我们的训练结果。我们需要将这个文件copy到`%TESSERACT_HOME%/share/tessdata`就可以使用了。
 
 ### 基于字体训练
