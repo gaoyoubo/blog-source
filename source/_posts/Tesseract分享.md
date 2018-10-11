@@ -263,7 +263,9 @@ originContent: >-
 
   在完成box文件的编辑之后就可以使用box文件进行训练了，如下图：
 
+
   ![](http://file.mspring.org/e683e47cb930394065857b920ac8795d)
+
 
   我们这里需要选择`Train with Existing
   Box`，进行训练，训练过程中具体使用了哪些命令，都可以在控制台中查看。训练完成之后会在`Training
@@ -427,13 +429,11 @@ OCR Engine modes:
 
 很明显，我自己训练的识别库能够100%准确的识别出图片中的文字，那么我们接下来看下如何去训练自己的识别库。
 
-## jTessBoxEditor
-
 jTessBoxEditor是一个第三方工具，借助这个工具能够很方便的去训练一个自己的字库。jTessBoxEditor下载地址：https://sourceforge.net/projects/vietocr/files/jTessBoxEditor/ 我接下来的介绍中所使用的版本为`jTessBoxEditorFX-2.1.0`。jTessBoxEditor其实是对Tesseract命令的GUI封装，该工具其实最终也是调用的Tesseract相关的命令来完成训练工作。
 
-### 基于图片训练
+## 基于图片训练
 
-#### 根据图片生成box文件
+### 根据图片生成box文件
 
 ![](http://file.mspring.org/50c66485033fffebbb0be0928f040cff)
 
@@ -449,7 +449,7 @@ jTessBoxEditor是一个第三方工具，借助这个工具能够很方便的去
 /Users/gaoyoubo/lib/tesseract/bin/tesseract train.png train -l chi_sim batch.nochop makebox
 ```
 
-#### 编辑box文件
+### 编辑box文件
 在生成box文件之后，我们可以使用jTessEditor文件打开查看下box文件。如下图：
 
 ![](http://file.mspring.org/1ccb42dbca0cab4cf0bd73a25bf16265)
@@ -480,14 +480,14 @@ jTessBoxEditor是一个第三方工具，借助这个工具能够很方便的去
 
 ![](http://file.mspring.org/4a67a286b05a71ab8642754ee75006f1)
 
-#### 完成训练
+### 完成训练
 在完成box文件的编辑之后就可以使用box文件进行训练了，如下图：
 
 ![](http://file.mspring.org/e683e47cb930394065857b920ac8795d)
 
 我们这里需要选择`Train with Existing Box`，进行训练，训练过程中具体使用了哪些命令，都可以在控制台中查看。训练完成之后会在`Training Data`目录下生成有一个`tessdata`文件夹，文件夹文件夹中有个`chi_my.tessdata`文件就是我们的训练结果。我们需要将这个文件copy到`%TESSERACT_HOME%/share/tessdata`就可以使用了。
 
-### 基于字体训练
+## 基于字体训练
 > 字体各式各样，很多情况下我们在识别图片中文字的时候可能由于字体问题，导致识别并不准确。所以就有为某种字体单独训练识别库的需求。对于根据字体进行训练`jTessBoxEditor`也做了很好的支持。
 
 如下图，我们输入想要训练的文字，然后选择字体就能生成相应的图片和box文件了。
