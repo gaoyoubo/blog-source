@@ -38,7 +38,7 @@ site:
 
 # config
 config:
-  skin: theme-purple # 主题颜色 theme-black theme-blue theme-green theme-purple
+  skin:  # 主题颜色 theme-black theme-blue theme-green theme-purple
   layout: main-center # 布局方式 main-left main-center main-right
   toc: true # 是否开启文章章节目录导航
   menu_highlight: true # 是否开启当前菜单高亮显示
@@ -106,7 +106,7 @@ github:
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 comment:
-  type: changyan  # 启用哪种评论系统
+  type: valine  # 启用哪种评论系统
   disqus:  # enter disqus shortname here
   youyan: 
     uid: 1783844 # enter youyan uid 
@@ -119,11 +119,11 @@ comment:
     ClientSecret: 2ca1614a9842106c3d399a8bb29bbfd5c5f3e881
     lazy: true
   valine: # Valine. https://valine.js.org
-    appid:  # your leancloud application appid
-    appkey:  # your leancloud application appkey
+    appid: 8bxzi1xe19ua2nmq0qa5866gkrhrjjefzcz9id2dbc0joyxm # your leancloud application appid
+    appkey: ofjfngcdgdotv8ghoe8ehea7sabtb4iecoio5op4yx27ue33 # your leancloud application appkey
     notify: false # mail notifier , https://github.com/xCss/Valine/wiki
     verify: false # Verification code
-    placeholder: Just go go # comment box placeholder
+    placeholder: 欢迎评论 # comment box placeholder
     avatar: mm # gravatar style
     meta: nick,mail,link # custom comment header
     pageSize: 10 # pagination size
