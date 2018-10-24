@@ -48,7 +48,6 @@ LibFM是专门用于矩阵分解的利器，尤其是其中实现了MCMC（Marko
 该源码托管在GitHub上，[https://github.com/grouplens/lenskit](https://github.com/grouplens/lenskit)。主要包含lenskit-api,lenskit-core, lenskit-knn,lenskit-svd,lenskit-slopone,lenskit-parent,lenskit-data-structures,lenskit-eval,lenskit-test等模块，主要实现了k-NN，SVD，Slope-One等 典型的推荐系统算法。
 
 # GraphLab
-==========
 ![](http://file.mspring.org/059a0e4f2135ef650c32dae1b2c0328e)
 
 主页：[GraphLab - Collaborative Filtering](http://docs.graphlab.org/collaborative_filtering.html) 语言：C++  
