@@ -71,7 +71,8 @@ Hexo1.2.0发布，全新的UI布局。
 - 其他细节修改
 
 ![](http://file.mspring.org/2a610b3b3e6a4dfc1132039145832472!detail)
-![](http://file.mspring.org/0021d74d369085c91e861d483659fa32)
+
+![](http://file.mspring.org/0021d74d369085c91e861d483659fa32!detail)
 
 ### 下载地址
 Mac版：https://pan.baidu.com/s/1E-5KrusoBuFGRTunTBqPJQ   提取码：2v2q
