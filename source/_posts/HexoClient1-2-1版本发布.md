@@ -35,20 +35,20 @@ originContent: >
   ## 功能预览
 
 
-  ![](http://file.mspring.org/8a3e66058442f2dd9821e7a54090bee7)
+  ![](http://file.mspring.org/8a3e66058442f2dd9821e7a54090bee7!detail)
 
-  ![](http://file.mspring.org/f2daf058f76496f56277abc6ff6fbef1)
+  ![](http://file.mspring.org/f2daf058f76496f56277abc6ff6fbef1!detail)
 
-  ![](http://file.mspring.org/92be1e0368bf5e9b07cdc48c19c85954)
+  ![](http://file.mspring.org/92be1e0368bf5e9b07cdc48c19c85954!detail)
 
-  ![](http://file.mspring.org/e86c878c2c7dc5e7234d6690864c52d3)
+  ![](http://file.mspring.org/e86c878c2c7dc5e7234d6690864c52d3!detail)
 categories:
   - 程序员
 toc: true
 date: 2018-11-23 13:05:49
 ---
 
-## 本次更新内容如下
+## 更新内容
 
 - 支持文章搜索
 - 优化新建、编辑文章页布局
@@ -66,7 +66,7 @@ date: 2018-11-23 13:05:49
 
 ## 功能预览
 
-![](http://file.mspring.org/8a3e66058442f2dd9821e7a54090bee7)
-![](http://file.mspring.org/f2daf058f76496f56277abc6ff6fbef1)
-![](http://file.mspring.org/92be1e0368bf5e9b07cdc48c19c85954)
-![](http://file.mspring.org/e86c878c2c7dc5e7234d6690864c52d3)
+![](http://file.mspring.org/8a3e66058442f2dd9821e7a54090bee7!detail)
+![](http://file.mspring.org/f2daf058f76496f56277abc6ff6fbef1!detail)
+![](http://file.mspring.org/92be1e0368bf5e9b07cdc48c19c85954!detail)
+![](http://file.mspring.org/e86c878c2c7dc5e7234d6690864c52d3!detail)
