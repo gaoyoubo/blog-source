@@ -2,7 +2,7 @@
 title: HexoClient1.2.1版本发布
 tags:
   - Hexo
-originContent: >-
+originContent: >
   ## 本次更新内容如下
 
 
@@ -40,9 +40,11 @@ originContent: >-
   ![](http://file.mspring.org/f2daf058f76496f56277abc6ff6fbef1)
 
   ![](http://file.mspring.org/92be1e0368bf5e9b07cdc48c19c85954)
+
+  ![](http://file.mspring.org/e86c878c2c7dc5e7234d6690864c52d3)
 categories:
   - 程序员
-toc: false
+toc: true
 date: 2018-11-23 13:05:49
 ---
 

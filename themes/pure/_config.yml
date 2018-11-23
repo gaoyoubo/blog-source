@@ -7,8 +7,8 @@ menu:
   Repository: repository  # github repositories
   # Books: books  # 豆瓣书单
   Links: links  # 友链
-  HexoClient: hexo-client  # hexoclient
   About: about  # 关于
+  HexoClient: hexo-client  # hexoclient
 
 # Enable/Disable menu icons
 menu_icons:
@@ -21,6 +21,7 @@ menu_icons:
   books: icon-book-fill
   links: icon-friendship
   about: icon-cup-fill
+  hexoclient: icon-project
 
 # rss
 rss: /atom.xml

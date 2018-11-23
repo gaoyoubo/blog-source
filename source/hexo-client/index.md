@@ -1,10 +1,20 @@
 ---
 title: HexoClient
-description: 
+description: HexoClient介绍
+layout: hexo-client
 comments: true
-sidebar: custom
+sidebar: none
 ---
 
-```
-HexoClient介绍信息
-```
+## 介绍
+> TODO
+
+## 更新记录
+> TODO
+
+## 使用帮助
+> TODO
+
+## 常见问题
+> TODO
+
