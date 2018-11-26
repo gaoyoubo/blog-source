@@ -12,9 +12,16 @@ sidebar: none
 ## 更新记录
 > TODO
 
-## 使用帮助
+## 最佳实践
 > TODO
 
 ## 常见问题
-> TODO
+- 出现莫名其妙的未知错误怎么办
+
+- Hexo中有文章，但是打开之后却显示空白
+HexoClient的数据加载是完全依赖于Hexo的，所以在打开HexoClient之前要确保你的Hexo是install成功的。
+
+- 发布失败
+HexoClient的发布操作其实也是先调用`hexo generate`再调用`hexo deploy`。如果要想能够发布成功，那么首先要确保自己在命令行能够成功调用这两个命令。另外如果你的deployer是git，请使用ssh协议，不要使用http(s)协议。
+
 
