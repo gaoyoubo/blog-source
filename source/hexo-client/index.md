@@ -13,6 +13,17 @@ sidebar: none
 > TODO
 
 ## 最佳实践
+
+### 安装和使用hexo
+> TODO
+
+### 使用Github Pages托管
+> TODO 
+
+### 使用Travis-CI自动发布
+> TODO
+
+### 使用HexoClient管理你的文章
 > TODO
 
 ## 常见问题
