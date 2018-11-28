@@ -5,26 +5,24 @@ branches:
   only:
     - master
 
+cache:
+  directories:
+    - node_modules
+
 before_install:
-  - openssl aes-256-cbc -K $encrypted_a0b7f0848317_key -iv $encrypted_a0b7f0848317_iv -in ./.travis/id_rsa.enc -out ~/.ssh/id_rsa -d
-  - chmod 600 ~/.ssh/id_rsa
-  - eval $(ssh-agent)
-  - ssh-add ~/.ssh/id_rsa
-  - cp .travis/ssh_config ~/.ssh/config
   - npm install -g hexo-cli
 
 install:
   - npm install
 
 script:
+  - hexo clean
   - hexo generate
 
 after_success:
+  - git init
+  - git config --global user.name "GaoYoubo"
+  - git config --global user.email "gaoyoubo@foxmail.com"
+  # 替换同目录下的_config.yml文件中GH_TOKEN字符串为travis后台配置的变量，注意此处sed命令用了双引号。单引号无效！
+  - sed -i "s/GH_TOKEN/${GH_TOKEN}/g" ./_config.yml
   - hexo deploy
-  # - cd ./public
-  # - git init
-  # - git config --global user.name "GaoYoubo"
-  # - git config --global user.email "gaoyoubo@foxmail.com"
-  # - git add -A
-  # - git commit -m "update by travis"
-  # - git push --force --quiet "git@github.com:gaoyoubo/blog.mspring.org.git"
