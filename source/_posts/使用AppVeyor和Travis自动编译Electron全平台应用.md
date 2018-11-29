@@ -11,7 +11,7 @@ originContent: >-
   {
     "name": "HexoClient",
     "version": "1.2.2",
-    "author": "...",
+    "author": "....",
     "description": "Hexo 桌面客户端",
     "license": "Apache License, Version 2.0",
     "homepage": "https://github.com/gaoyoubo/hexo-client",
@@ -148,7 +148,7 @@ date: 2018-11-26 17:53:48
 {
   "name": "HexoClient",
   "version": "1.2.2",
-  "author": "....",
+  "author": "......",
   "description": "Hexo 桌面客户端",
   "license": "Apache License, Version 2.0",
   "homepage": "https://github.com/gaoyoubo/hexo-client",
