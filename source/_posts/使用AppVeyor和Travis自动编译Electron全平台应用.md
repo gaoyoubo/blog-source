@@ -1,8 +1,8 @@
 ---
 title: 使用AppVeyor和Travis自动编译Electron全平台应用
 tags:
-  - Electron
   - 程序员
+  - Electron
 originContent: >-
   ## package.json配置
 
@@ -125,7 +125,6 @@ originContent: >-
   | never |never publish|
 
 
-
   ## 参考：
 
   - [AppVeyor](https://www.appveyor.com/)
@@ -149,7 +148,7 @@ date: 2018-11-26 17:53:48
 {
   "name": "HexoClient",
   "version": "1.2.2",
-  "author": "...",
+  "author": "....",
   "description": "Hexo 桌面客户端",
   "license": "Apache License, Version 2.0",
   "homepage": "https://github.com/gaoyoubo/hexo-client",
