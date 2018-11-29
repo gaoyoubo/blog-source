@@ -8,7 +8,7 @@ menu:
   # Books: books  # 豆瓣书单
   Links: links  # 友链
   About: about  # 关于
-  HexoClient: hexo-client  # hexoclient
+  # HexoClient: hexo-client  # hexoclient
 
 # Enable/Disable menu icons
 menu_icons:
