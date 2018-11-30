@@ -46,7 +46,7 @@ originContent: >-
   这里生成的Token，接下来会用到，请先妥善保存好。
 
 
-  #### 第二步
+  #### 第二步：注册并开启Travis-CI项目构建
 
   使用 `GitHub账户登录` [Travis-CI官网](https://travis-ci.org) ，进去后能看到已经自动关联了 GitHub
   上的仓库。这里我们选择需要启用的项目，即 `blog-source`。然后点击后面的`Settings`进入设置界面。
@@ -54,7 +54,7 @@ originContent: >-
   ![](http://file.mspring.org/bb9afa5fd9a4c846fe8a53767931126d!detail)
 
 
-  #### 第三步
+  #### 第三步：
 
   进入设置界面后可以参考我的配置：
 
@@ -158,7 +158,8 @@ originContent: >-
   -
   HexoClient中支持新建、修改文章，新建修改文章之后点击发布按钮能够将文章更改提交到git，并自动通过travis自动发布。（前提是按照上面步骤配置好）
 
-  - HexoClient支持七牛图片上传，七牛10G存储空间，每月10G流量免费，可以自行注册配置七牛，配置好后将七牛的ak、sk、bucket、url
+  -
+  HexoClient支持七牛图片上传，七牛10G存储空间，每月10G流量免费，可以自行注册配置七牛，配置好后将七牛的ak、sk、bucket、域名配置到HexoClient中
 
 
 
@@ -257,11 +258,11 @@ date: 2018-11-29 19:18:29
 ![](http://file.mspring.org/a43317347f11ba251d312d68697475ef!detail)
 这里生成的Token，接下来会用到，请先妥善保存好。
 
-#### 第二步
+#### 第二步：注册并开启Travis-CI项目构建
 使用 `GitHub账户登录` [Travis-CI官网](https://travis-ci.org) ，进去后能看到已经自动关联了 GitHub 上的仓库。这里我们选择需要启用的项目，即 `blog-source`。然后点击后面的`Settings`进入设置界面。
 ![](http://file.mspring.org/bb9afa5fd9a4c846fe8a53767931126d!detail)
 
-#### 第三步
+#### 第三步：配置Travis-CI自动构建
 进入设置界面后可以参考我的配置：
 ![](http://file.mspring.org/33e9d652fa14373f0cf8cc1cef38270e!detail)
 
