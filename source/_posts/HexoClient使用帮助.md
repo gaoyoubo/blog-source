@@ -1,9 +1,9 @@
 ---
 title: HexoClient使用帮助
 tags:
-  - HexoClient
   - Hexo
-originContent: |+
+  - HexoClient
+originContent: |-
   ## 阅读前提
 
   > 本文不会讲解如何安装、配置、使用Hexo，所以阅读前请确保掌握以下技能。
@@ -15,11 +15,10 @@ originContent: |+
 
   ## 最佳实践
 
-  ### 安装和使用hexo
-  > TODO
-
-  ### 使用Github Pages托管
-  > TODO 
+  ### 原理概述
+  我在Github上创建以下两个项目
+  - blog.mspring.org 该项目开启GitHub Pages用来存放`hexo deploy`之后的静态网页
+  - blog-source 该项目用来存放我的hexo原始项目（也就是没有你通过hexo init创建的博客）
 
   ### 使用Travis-CI自动发布
   > TODO
@@ -62,7 +61,6 @@ originContent: |+
   - 优化文章预览、详情页面展示样式。
   - 文章内容修改后离开页面进行友好提示。
   - 支持hexo generate 和 hexo deploy。
-
 categories:
   - 程序员
 toc: true
@@ -79,6 +77,11 @@ date: 2018-11-29 19:18:29
 - 了解基本的Git用法
 
 ## 最佳实践
+
+### 原理概述
+我在Github上创建以下两个项目
+- blog.mspring.org 该项目开启GitHub Pages用来存放`hexo deploy`之后的静态网页
+- blog-source 该项目用来存放我的hexo原始项目（也就是没有你通过hexo init创建的博客）
 
 ### 使用Travis-CI自动发布
 > TODO
@@ -121,4 +124,3 @@ HexoClient的数据加载是完全依赖于Hexo的，所以在打开HexoClient�
 - 优化文章预览、详情页面展示样式。
 - 文章内容修改后离开页面进行友好提示。
 - 支持hexo generate 和 hexo deploy。
-
