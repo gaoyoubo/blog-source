@@ -54,7 +54,7 @@ originContent: >-
   ![](http://file.mspring.org/bb9afa5fd9a4c846fe8a53767931126d!detail)
 
 
-  #### 第三步：
+  #### 第三步：配置Travis-CI自动构建
 
   进入设置界面后可以参考我的配置：
 
@@ -208,7 +208,7 @@ originContent: >-
   - 其他细节修改
 
 
-  ## v1.1.3
+  ### v1.1.3
 
   - 升级markdown编辑器，使用mavonEditor编辑器（https://github.com/hinesboy/mavonEditor）。
 
@@ -219,7 +219,7 @@ originContent: >-
   - 升级electron版本到2.0.6。
 
 
-  ## v1.1.0
+  ### v1.1.0
 
   - 优化页面配色。
 
@@ -359,13 +359,13 @@ HexoClient的数据加载是完全依赖于Hexo的，所以在打开HexoClient�
 - 升级electron版本到3.x
 - 其他细节修改
 
-## v1.1.3
+### v1.1.3
 - 升级markdown编辑器，使用mavonEditor编辑器（https://github.com/hinesboy/mavonEditor）。
 - 修复图片文章列表过长是，切换页面滚动位置丢失的问题。
 - 重构代码，优化调用逻辑和布局层级关系。
 - 升级electron版本到2.0.6。
 
-## v1.1.0
+### v1.1.0
 - 优化页面配色。
 - 优化文章预览、详情页面展示样式。
 - 文章内容修改后离开页面进行友好提示。
