@@ -21,7 +21,7 @@ originContent: |-
   - blog-source 该项目用来存放我的hexo原始项目（也就是没有你通过hexo init创建的博客）
 
   ### 使用Travis-CI自动发布
-  > TODO 
+  > TODO
 
   ### 使用HexoClient管理你的文章
   > TODO
@@ -91,7 +91,7 @@ date: 2018-11-29 19:18:29
 
 ## 常见问题
 - 出现莫名其妙的未知错误怎么办
-> TODO
+> TODO 
 
 - Hexo中有文章，但是打开之后却显示空白
 
