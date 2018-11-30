@@ -150,11 +150,16 @@ originContent: >-
   ```
 
 
-
-
   ### 使用HexoClient管理你的文章
 
-  > TODO
+
+  - HexoClient在启动之后选择好hexo安装的目录，会自动读取Hexo目录中的文章。
+
+  -
+  HexoClient中支持新建、修改文章，新建修改文章之后点击发布按钮能够将文章更改提交到git，并自动通过travis自动发布。（前提是按照上面步骤配置好）
+
+  - HexoClient支持七牛图片上传，七牛10G存储空间，每月10G流量免费，可以自行注册配置七牛，配置好后将七牛的ak、sk、bucket、url
+
 
 
   ## 常见问题
@@ -322,7 +327,11 @@ after_success:
 ```
 
 ### 使用HexoClient管理你的文章
-> TODO
+
+- HexoClient在启动之后选择好hexo安装的目录，会自动读取Hexo目录中的文章。
+- HexoClient中支持新建、修改文章，新建修改文章之后点击发布按钮能够将文章更改提交到git，并自动通过travis自动发布。（前提是按照上面步骤配置好）
+- HexoClient支持七牛图片上传，七牛10G存储空间，每月10G流量免费，可以自行注册配置七牛，配置好后将七牛的ak、sk、bucket、域名配置到HexoClient中
+
 
 ## 常见问题
 - 出现莫名其妙的未知错误怎么办
