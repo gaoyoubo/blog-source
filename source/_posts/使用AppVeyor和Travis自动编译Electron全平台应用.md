@@ -11,7 +11,7 @@ originContent: >-
   {
     "name": "HexoClient",
     "version": "1.2.2",
-    "author": "....",
+    "author": "......",
     "description": "Hexo 桌面客户端",
     "license": "Apache License, Version 2.0",
     "homepage": "https://github.com/gaoyoubo/hexo-client",
@@ -238,6 +238,7 @@ electron-builder支持构建多个平台安装包，上面的配置中我配置�
 node .electron-vue/build.js && electron-builder --publish onTagOrDraft
 ```
 可以看到后面的参数`--publish onTagOrDraft`他的意思是，当在标签中提交，或github中存在draft发布版本的时候触发publish操作，这个时候会自动将构建好的包上传到github releases中。publish配置的取值如下：
+
 |Value| Description |
 |-|-|
 | onTag |on tag push only|
