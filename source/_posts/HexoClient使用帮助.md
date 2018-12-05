@@ -344,7 +344,7 @@ after_success:
 HexoClient的数据加载是完全依赖于Hexo的，所以在打开HexoClient之前要确保你的Hexo是install成功的。
 
 ## HexoClient更新记录
-### 1.2.2
+### v1.2.2 (2018-12-04)
 - 支持文章搜索
 - 优化新建、编辑文章页布局
 - 优化调整发布功能按钮
