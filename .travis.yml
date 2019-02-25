@@ -10,7 +10,7 @@ cache:
     - node_modules
 
 before_install:
-  - npm install -g hexo-cli
+  # - npm install -g hexo-cli
 
 install:
   - npm install
