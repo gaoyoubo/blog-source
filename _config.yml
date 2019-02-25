@@ -93,9 +93,9 @@ theme: pure
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
 - type: git
-  repo: git@github.com:gaoyoubo/blog.mspring.org.git
+  # repo: git@github.com:gaoyoubo/blog.mspring.org.git
   # 下方的gh_token会被.travis.yml中sed命令替换
-  #repo: https://GH_TOKEN@github.com/gaoyoubo/blog.mspring.org.git
+  repo: https://GH_TOKEN@github.com/gaoyoubo/blog.mspring.org.git
   branch: master
 
 jsonContent:
