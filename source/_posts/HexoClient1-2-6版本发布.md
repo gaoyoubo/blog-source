@@ -25,3 +25,4 @@ Github: [https://github.com/gaoyoubo/hexo-client](https://github.com/gaoyoubo/he
 Gitee: [https://gitee.com/gaoyoubo/hexo-client](https://gitee.com/gaoyoubo/hexo-client)
 下载地址：[https://github.com/gaoyoubo/hexo-client/releases/tag/v1.2.6](https://github.com/gaoyoubo/hexo-client/releases/tag/v1.2.6)
 使用帮助：[https://www.mspring.org/tags/HexoClient/](https://www.mspring.org/tags/HexoClient/)
+提交问题：[https://github.com/gaoyoubo/hexo-client/issues/new](https://github.com/gaoyoubo/hexo-client/issues/new)
