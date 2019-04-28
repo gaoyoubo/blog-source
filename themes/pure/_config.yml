@@ -33,7 +33,7 @@ site:
     width: 40
     height: 40
     url: ../images/logo.png
-  title: M-LOG # 页面title
+  title: 雾非雾的情思 # 页面title
   favicon: /favicon.png
   board: <p>临渊羡鱼，不如退而结网!</p> # 站点公告
   copyright: true # 底部版权信息
