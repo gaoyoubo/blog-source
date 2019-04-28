@@ -1,15 +1,15 @@
 ---
-title: Markdown语法指南
+title: Markdown 语法指南
 tags:
   - 程序员
-originContent: ''
+  - markdown
 categories:
   - 程序员
-toc: false
-date: 2019-04-28 18:02:01
+toc: true
+date: 2019-04-28 18:04:24
 ---
 
-Markdown 语法简介
+Markdown 语法指南
 =============
 > [语法详解](http://commonmark.org/help/)
 
