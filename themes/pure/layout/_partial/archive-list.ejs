@@ -6,20 +6,6 @@
   <div class="content article-list">
     <% page.posts.each(function(post, i){ %>
       <%- partial('archive-post', {post: post, even: i % 2 == 0}) %>
-      
-      <!-- 第三条和最后一条显示广告 -->
-      <%if (i == 3 || i == page.posts.length - 1) {%>
-        <script type="text/javascript">
-          (function () {
-            var s = "_" + Math.random().toString(36).slice(2);
-            document.write('<div style="" id="' + s + '"></div>');
-            (window.slotbydup = window.slotbydup || []).push({
-              id: "u3794658",
-              container: s
-            });
-          })();
-        </script>
-      <%}%>
     <% }) %>
   </div>
 <% } %>
