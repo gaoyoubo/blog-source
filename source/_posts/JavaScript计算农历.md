@@ -2,13 +2,17 @@
 title: JavaScript计算农历
 tags:
   - js
-originContent: ''
 categories:
   - 程序员
 toc: false
 date: 2019-05-14 18:48:30
 ---
 
+产品最近需要花一个万年历的图片用于分享使用，找了Java的很多库都不好用，于是在其他万年历的网页中找到了下面的代码，然后用Java调用JavaScript将万年历计算出来。
+## 最终生成的图片
+![image.png](/images/2019/05/23/a401a000-7d01-11e9-935d-af314d4a877d.png)
+
+## JavaScript代码
 ```html
 <!DOCTYPE html>
 <html>
