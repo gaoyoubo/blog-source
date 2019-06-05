@@ -215,8 +215,9 @@ profile:
     # 平面设计: ★★★☆☆
   # My Personal Links
   links:
-    Blog: http://www.mspring.org
+    Blog: https://www.mspring.org
     Github: https://github.com/gaoyoubo
+    M-LOG: https://mlog.club
   # My Personal Labels
   labels:
     - Java
