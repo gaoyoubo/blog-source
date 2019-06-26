@@ -35,7 +35,7 @@ site:
     url: ../images/logo.png
   title: 雾非雾的情思 # 页面title
   favicon: /favicon.png
-  board: <p>临渊羡鱼，不如退而结网!<br/><a href="https://mlog.club" target="_blank">M-LOG兴趣分享社区</a></p> # 站点公告
+  board: <p>临渊羡鱼，不如退而结网!</p> # 站点公告
   copyright: true # 底部版权信息
 
 # config
@@ -217,7 +217,7 @@ profile:
   links:
     Blog: https://www.mspring.org
     Github: https://github.com/gaoyoubo
-    M-LOG: https://mlog.club
+    # M-LOG: https://mlog.club
   # My Personal Labels
   labels:
     - Java
