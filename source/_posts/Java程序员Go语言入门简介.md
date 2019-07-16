@@ -1,5 +1,5 @@
 ---
-title: Java程序员学Golang
+title: Java程序员Go语言入门简介
 tags:
   - Go
   - Java
