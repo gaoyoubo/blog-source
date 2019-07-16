@@ -10,7 +10,7 @@ date: 2019-07-16 19:18:06
 
 ## 本次更新内容
 - feature：新增阿里云oss图床支持 https://github.com/gaoyoubo/hexo-client/issues/50
-- feature：新增Google Analytics支持，只会搜集用户页面点击数据，请放心使用。具体mr为：https://github.com/gaoyoubo/hexo-client/commit/2679449ab20fd04d094f238f0b6053bffdebdb3e
+- feature：新增Google Analytics支持，只会搜集用户页面点击数据，请放心使用。代码更改详见：https://github.com/gaoyoubo/hexo-client/commit/2679449ab20fd04d094f238f0b6053bffdebdb3e
 
 ## 功能预览
 ![QQ20190124111534.png](http://file.mspring.org/FpVFNRfqb1r8SL8WmWPwrZwNqE2M)
