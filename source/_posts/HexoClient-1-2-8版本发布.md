@@ -1,17 +1,16 @@
 ---
-title: HexoClient 1.2.7版本发布
+title: HexoClient 1.2.8版本发布
 tags:
   - HexoClient
-categories: []
+categories:
+  - 程序员
 toc: false
-date: 2019-05-15 15:31:48
+date: 2019-07-16 19:18:06
 ---
 
 ## 本次更新内容
-- bugfix：修复保存快捷键失效的问题  https://github.com/gaoyoubo/hexo-client/issues/44
-- bugfix：修复[https://sm.ms](https://sm.ms/)图床设置不生效的问题
-- 支持常用快捷键操作
-- 升级markdown编辑器版本
+- feature：新增阿里云oss图床支持 https://github.com/gaoyoubo/hexo-client/issues/50
+- feature：新增Google Analytics支持，只会搜集用户页面点击数据，请放心使用。具体mr为：https://github.com/gaoyoubo/hexo-client/commit/2679449ab20fd04d094f238f0b6053bffdebdb3e
 
 ## 功能预览
 ![QQ20190124111534.png](http://file.mspring.org/FpVFNRfqb1r8SL8WmWPwrZwNqE2M)
