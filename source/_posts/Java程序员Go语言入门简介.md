@@ -1,10 +1,9 @@
 ---
 title: Java程序员Go语言入门简介
 tags:
-  - Go
-  - Java
   - 程序员
-originContent: ''
+  - Java
+  - Go
 categories:
   - 程序员
 toc: false
@@ -109,8 +108,8 @@ func main() {
 ### 函数
 
 - 函数可以有多个返回值
-- 隐式的执行函数是private还是public，函数首字母大写的为public、小写的为private
-- 没有类似Java中的throw exception，Golang是通过将error作为返回值来处理异常。
+- 隐式的指定函数是private还是public，函数首字母大写的为public、小写的为private
+- 没有类似Java中的`try cache`、`throw`，Go语言是通过将`error`作为返回值来处理异常。
 - 不支持重载
 
 下面我们通过一个示例来了解一下，在线运行示例：https://play.golang.org/p/PYy3ueuPFS6
@@ -276,7 +275,7 @@ Go语言的并发是基于 goroutine 的，goroutine 类似于线程，但并非
 
 Go 程序从 main 包的 main() 函数开始，在程序启动时，Go 程序就会为 main() 函数创建一个默认的 goroutine。
 
-![11PQ61K343405.jpg](/images/2019/07/15/55b6ace0-a6d9-11e9-8437-8fc3aa44f6bd.jpg)
+![](https://i.loli.net/2019/07/15/5d2c2e4fe2f4d88322.jpg)
 
 下面我们来看一个例子（在线演示：https://play.golang.org/p/U9U-qjuY0t1）
 
@@ -311,8 +310,6 @@ func runing() {
 ```
 
 执行结果说明fuck函数中的sleep三秒并没有影响`喜特`的输出。
-
-
 
 如果说 goroutine 是Go语言程序的并发体的话，那么 channel 就是它们之间的通信机制。一个 channel 是一个通信机制，它可以让一个 goroutine 通过它给另一个 goroutine 发送值信息。每个 channel 都有一个特殊的类型，也就是 channel 可发送数据的类型。一个可以发送 int 类型数据的 channel 一般写为 chan int。
 
@@ -363,14 +360,12 @@ func consumer(channel <-chan int64) {
 ```
 
 
-
 ## Java程序员觉得不好用的地方
 
 - 异常处理
 - 没有泛型
 - 不支持多态、重载
-- 不支持注解
-- 函数、变量的作用域通过命名规则来限制
+- 不支持注解（但是他的struct中的属性支持`tag`）
 
 ## 参考
 
