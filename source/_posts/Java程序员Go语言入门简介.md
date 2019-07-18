@@ -275,7 +275,7 @@ Go语言的并发是基于 goroutine 的，goroutine 类似于线程，但并非
 
 Go 程序从 main 包的 main() 函数开始，在程序启动时，Go 程序就会为 main() 函数创建一个默认的 goroutine。
 
-![](https://i.loli.net/2019/07/15/5d2c2e4fe2f4d88322.jpg)
+![](/images/2019/07/15/55b6ace0-a6d9-11e9-8437-8fc3aa44f6bd.jpg)
 
 下面我们来看一个例子（在线演示：https://play.golang.org/p/U9U-qjuY0t1）
 
