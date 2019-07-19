@@ -3,7 +3,6 @@ title: Golang并发编程
 tags:
   - 程序员
   - Go
-originContent: ''
 categories:
   - 程序员
 toc: false
@@ -16,7 +15,7 @@ Go 程序从 main 包的 main() 函数开始，在程序启动时，Go 程序就
 
 ![](https://i.loli.net/2019/07/15/5d2c2e4fe2f4d88322.jpg)
 
-下面我们来看一个例子（在线演示：https://play.golang.org/p/U9U-qjuY0t1）
+下面我们来看一个例子，在线演示：https://play.golang.org/p/U9U-qjuY0t1
 
 ```go
 package main
@@ -52,7 +51,7 @@ func runing() {
 
 如果说 goroutine 是Go语言程序的并发体的话，那么 channel 就是它们之间的通信机制。一个 channel 是一个通信机制，它可以让一个 goroutine 通过它给另一个 goroutine 发送值信息。每个 channel 都有一个特殊的类型，也就是 channel 可发送数据的类型。一个可以发送 int 类型数据的 channel 一般写为 chan int。
 
-下面我们利用goroutine+channel来实现一个生产消费者模型，示例代码如下：（在线执行：https://play.golang.org/p/lqUBugLdU-I）
+下面我们利用goroutine+channel来实现一个生产消费者模型，示例代码如下，在线执行：https://play.golang.org/p/lqUBugLdU-I
 
 ```go
 package main

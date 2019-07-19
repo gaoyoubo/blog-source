@@ -122,6 +122,10 @@ HexoClient的数据加载是完全依赖于Hexo的，所以在打开HexoClient�
 
 ## 发布地址
 
+### v1.2.8 (2019-07-16)
+- feature：新增阿里云oss图床支持 https://github.com/gaoyoubo/hexo-client/issues/50
+- feature：新增Google Analytics支持，只会搜集用户页面点击数据，请放心使用。代码更改详见：https://github.com/gaoyoubo/hexo-client/commit/2679449ab20fd04d094f238f0b6053bffdebdb3e
+
 ### v1.2.7 (2019-05-15)
 - bugfix：修复保存快捷键失效的问题  https://github.com/gaoyoubo/hexo-client/issues/44
 - 支持常用快捷键操作
