@@ -120,7 +120,11 @@ HexoClient的数据加载是完全依赖于Hexo的，所以在打开HexoClient�
 
 ## HexoClient更新记录
 
-## 发布地址
+### v1.2.9 (2019-07-19)
+- 支持草稿功能
+- 支持检查更新功能
+- 修复创建文章时`ctrl+s`多次保存会生成多篇文章的问题
+- 修复选中分类、标签展示之后从其他页面切换回来选中状态丢失的问题
 
 ### v1.2.8 (2019-07-16)
 - feature：新增阿里云oss图床支持 https://github.com/gaoyoubo/hexo-client/issues/50
