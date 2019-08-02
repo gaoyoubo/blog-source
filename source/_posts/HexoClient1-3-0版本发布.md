@@ -1,20 +1,24 @@
 ---
 title: HexoClient1.3.0版本发布
 tags:
+  - 程序员
   - HexoClient
   - Hexo
-  - 程序员
 categories:
   - 程序员
-toc: false
+toc: true
+date: 2019-08-02 13:30:52
 ---
 
+
 ## 更新内容
-- 修复阿里云oss图片上传时url不正确的问题。[#60](https://github.com/gaoyoubo/hexo-client/issues/60)
+- 修复阿里云oss图片上传后url不正确的问题。[#60](https://github.com/gaoyoubo/hexo-client/issues/60)
 - 支持一键调用`hexo generate -d`命令发布文章，thanks [EVINK](https://github.com/EVINK)
+![image.png](http://file.mspring.org/FkefJrKFFG3yQp6lumRbJujUgDlr)
 
 ## 功能预览
-![QQ20190124111534.png](http://file.mspring.org/FpVFNRfqb1r8SL8WmWPwrZwNqE2M)
+![image.png](http://file.mspring.org/FsrXnCJWLcBk3Pfv3uzRI-XaV8FP)
+![image.png](http://file.mspring.org/Fiw4MmJIqsSAqst2sAr-DizUD6kd)
 
 ## 相关链接
 - 下载地址：[https://github.com/gaoyoubo/hexo-client/releases/tag/v1.3.0](https://github.com/gaoyoubo/hexo-client/releases/tag/v1.3.0)
