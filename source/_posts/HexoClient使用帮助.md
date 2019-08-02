@@ -9,6 +9,16 @@ toc: true
 date: 2018-11-29 19:18:29
 ---
 
+# 简介
+HexoClient是一款跨平台的[Hexo](https://hexo.io)管理工具。
+
+项目地址：https://github.com/gaoyoubo/hexo-client
+
+# 项目背景
+我是从2011年开始写博客，在早期的时候`wordpress`、`zblog`、`emlog`等开源的博客程序都是用过。但是本着生命在于则疼的原则，后来我自己使用Java写了个简单的Blog程序( https://gitee.com/gaoyoubo/mlog ) 将其托管在阿里云服务器上。但是后面觉得为了一个博客单独买一台服务器成本比较高，所以后来改用`Hexo`+`Github Pages`，这样每年基本只需要几十块钱的域名费用即可。开始使用Hexo的时候也只是按照常规方式使用，后来了解到了`electron`框架，所以决定利用`electron`来为hexo写一个客户端。开始完全是为了自用，开源出去之后反响还不错，收到很多hexo博客党的反馈。
+
+# 使用帮助
+
 ## 阅读前提
 
 > 本文不会讲解如何安装、配置、使用Hexo，所以阅读前请确保掌握以下技能。
@@ -18,8 +28,26 @@ date: 2018-11-29 19:18:29
 - 熟练掌握markdown语法
 - 了解基本的Git用法
 
-## 最佳实践
+## 安装
 
+### 第一步
+
+首先安装hexo
+```shell
+npm install hexo-cli -g
+hexo init blog
+cd blog
+npm install
+hexo server
+```
+
+### 第二步
+去Hexo的产品发布页( https://github.com/gaoyoubo/hexo-client/releases  )下载你对应平台的安装包进行安装。
+
+### 第三部
+成功安装后打开程序会要求弹窗要求填写Hexo项目路径，该路径就是第一步通过`hexo init blog`创建的博客路径。正确配置路径之后即可愉快的使用HexoClient。
+
+## 利用Travis-CI实现自动部署
 ### 原理概述
 我在Github上创建以下两个项目：
 - blog.mspring.org 该项目开启GitHub Pages用来存放`hexo deploy`之后的静态网页
@@ -109,7 +137,7 @@ after_success:
 - HexoClient支持七牛图片上传，七牛10G存储空间，每月10G流量免费，可以自行注册配置七牛，配置好后将七牛的ak、sk、bucket、域名配置到HexoClient中
 
 
-## 常见问题
+# 常见问题
 - 出现莫名其妙的未知错误怎么办
 
 在菜单栏中找到：查看 -> 切换开发者工具，将开发者工具打开，然后看控制台是否有错误，如果有错误将错误信息copy出来，点击这里提交问题：[https://github.com/gaoyoubo/hexo-client/issues/new](https://github.com/gaoyoubo/hexo-client/issues/new)
@@ -118,53 +146,58 @@ after_success:
 
 HexoClient的数据加载是完全依赖于Hexo的，所以在打开HexoClient之前要确保你的Hexo是install成功的。
 
-## HexoClient更新记录
+# HexoClient更新记录
 
-### v1.2.9 (2019-07-19)
+## v1.3.0 (2019-08-02)
+- 修复阿里云oss图片上传后url不正确的问题。[#60](https://github.com/gaoyoubo/hexo-client/issues/60)
+- 支持一键调用`hexo generate -d`命令发布文章，thanks [EVINK](https://github.com/EVINK)
+![image.png](http://file.mspring.org/FkefJrKFFG3yQp6lumRbJujUgDlr)
+
+## v1.2.9 (2019-07-19)
 - 支持草稿功能
 - 支持检查更新功能
 - 修复创建文章时`ctrl+s`多次保存会生成多篇文章的问题
 - 修复选中分类、标签展示之后从其他页面切换回来选中状态丢失的问题
 
-### v1.2.8 (2019-07-16)
+## v1.2.8 (2019-07-16)
 - feature：新增阿里云oss图床支持 https://github.com/gaoyoubo/hexo-client/issues/50
 - feature：新增Google Analytics支持，只会搜集用户页面点击数据，请放心使用。代码更改详见：https://github.com/gaoyoubo/hexo-client/commit/2679449ab20fd04d094f238f0b6053bffdebdb3e
 
-### v1.2.7 (2019-05-15)
+## v1.2.7 (2019-05-15)
 - bugfix：修复保存快捷键失效的问题  https://github.com/gaoyoubo/hexo-client/issues/44
 - 支持常用快捷键操作
 - 升级markdown编辑器版本
 
-### v1.2.6 (2019-03-15)
+## v1.2.6 (2019-03-15)
 - feature：支持hexo特性`front-matter` [#32](https://github.com/gaoyoubo/hexo-client/issues/32) [#38](https://github.com/gaoyoubo/hexo-client/issues/38)
 - bugfix：修复一处RCE(任意代码执行)漏洞 [#35](https://github.com/gaoyoubo/hexo-client/issues/35)
 - 升级`electron` 到最新版本
 - 升级`webpack`到最新版本，解决老版本漏洞问题
 
-### v1.2.5 (2019-01-29)
+## v1.2.5 (2019-01-29)
 - bugfix
 
-### v1.2.4 (2019-01-24)
+## v1.2.4 (2019-01-24)
 
 - 新增分类标签导航
 - 支持自定义文章路径
 - 修复若干BUG
 
-### v1.2.3 (2019-01-02)
+## v1.2.3 (2019-01-02)
 - 支持i18n
 - 新增sm.ms图床
 - 支持上传粘贴板图片
 - 优化设置页面布局
 - 修复发布时仅支持master分支的问题
 
-### v1.2.2 (2018-12-04)
+## v1.2.2 (2018-12-04)
 - 支持文章搜索
 - 优化新建、编辑文章页布局
 - 优化调整发布功能按钮
 - 支持新建文章、发布快捷键操作
 - 其他页面细节优化
 
-### v1.2.1
+## v1.2.1
 - MacOS下无边框样式
 - 调整菜单栏布局
 - 修改UI配色和界面细节
@@ -172,13 +205,13 @@ HexoClient的数据加载是完全依赖于Hexo的，所以在打开HexoClient�
 - 升级electron版本到3.x
 - 其他细节修改
 
-### v1.1.3
+## v1.1.3
 - 升级markdown编辑器，使用mavonEditor编辑器（https://github.com/hinesboy/mavonEditor）。
 - 修复图片文章列表过长是，切换页面滚动位置丢失的问题。
 - 重构代码，优化调用逻辑和布局层级关系。
 - 升级electron版本到2.0.6。
 
-### v1.1.0
+## v1.1.0
 - 优化页面配色。
 - 优化文章预览、详情页面展示样式。
 - 文章内容修改后离开页面进行友好提示。
