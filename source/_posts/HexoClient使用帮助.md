@@ -148,6 +148,10 @@ HexoClient的数据加载是完全依赖于Hexo的，所以在打开HexoClient�
 
 # HexoClient更新记录
 
+## v1.3.1 (2019-08-12)
+- 修复检查更新提示错误。[#64](https://github.com/gaoyoubo/hexo-client/issues/64)
+- 修复Windows系统下的一个样式错误。[#65](https://github.com/gaoyoubo/hexo-client/issues/65)
+
 ## v1.3.0 (2019-08-02)
 - 修复阿里云oss图片上传后url不正确的问题。[#60](https://github.com/gaoyoubo/hexo-client/issues/60)
 - 支持一键调用`hexo generate -d`命令发布文章，thanks [EVINK](https://github.com/EVINK)
