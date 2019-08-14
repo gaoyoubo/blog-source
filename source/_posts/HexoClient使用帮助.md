@@ -14,6 +14,13 @@ HexoClient是一款跨平台的[Hexo](https://hexo.io)管理工具。
 
 项目地址：https://github.com/gaoyoubo/hexo-client
 
+# QQ群
+欢迎加入HexoClient用户群交流。
+- QQ群号：618213781
+- QQ群二维码
+
+![](http://file.mspring.org/FjPi6HPuOAQwwaNKKyJzIbybJfWE)
+
 # 项目背景
 我是从2011年开始写博客，在早期的时候`wordpress`、`zblog`、`emlog`等开源的博客程序都是用过。但是本着生命在于则疼的原则，后来我自己使用Java写了个简单的Blog程序( https://gitee.com/gaoyoubo/mlog ) 将其托管在阿里云服务器上。但是后面觉得为了一个博客单独买一台服务器成本比较高，所以后来改用`Hexo`+`Github Pages`，这样每年基本只需要几十块钱的域名费用即可。开始使用Hexo的时候也只是按照常规方式使用，后来了解到了`electron`框架，所以决定利用`electron`来为hexo写一个客户端。开始完全是为了自用，开源出去之后反响还不错，收到很多hexo博客党的反馈。
 
