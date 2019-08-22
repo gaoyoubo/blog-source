@@ -174,7 +174,7 @@ postCount:
 plugins:
   google_analytics: # enter the tracking ID for your Google Analytics
   google_site_verification: # enter Google site verification code
-  baidu_analytics: 1d9c8ce0ced44a60687d67366cb2d2a7 # enter Baidu Analytics hash key
+  baidu_analytics:  # enter Baidu Analytics hash key
   tencent_analytics: 
   
 # Miscellaneous
