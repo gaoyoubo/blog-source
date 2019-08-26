@@ -155,6 +155,10 @@ HexoClient的数据加载是完全依赖于Hexo的，所以在打开HexoClient�
 
 # HexoClient更新记录
 
+## v1.3.2 (2019-08-26)
+- 新增好博客导航功能，搜集和推荐优质技术博客（欢迎自荐和推荐优质博客）
+- 添加QQ交流群（QQ群：618213781）
+
 ## v1.3.1 (2019-08-12)
 - 修复检查更新提示错误。[#64](https://github.com/gaoyoubo/hexo-client/issues/64)
 - 修复Windows系统下的一个样式错误。[#65](https://github.com/gaoyoubo/hexo-client/issues/65)
