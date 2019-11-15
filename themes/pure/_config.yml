@@ -186,7 +186,7 @@ fb_app_id:
 # profile
 profile:
   enabled: true # Whether to show profile bar
-  avatar: http://file.mspring.org/avatar.jpg
+  avatar: http://qiniu.mnclub.club/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: 雾非雾的情思
   author_title: 爱折腾的Java老码农！
