@@ -25,6 +25,6 @@ date: 2016-02-03 14:06:23
 
 
 [iphone]: http://www.mspring.org/article/1264
-[8f6c835e5abaf2c7754f97719c293371_detail]: http://file.mspring.org/8f6c835e5abaf2c7754f97719c293371!detail
-[6537194b61f8a13b46fd0af60f960c17_detail]: http://file.mspring.org/6537194b61f8a13b46fd0af60f960c17!detail
-[4f84a3ae78d616470e81d59d9d07b0b5_detail]: http://file.mspring.org/4f84a3ae78d616470e81d59d9d07b0b5!detail
+[8f6c835e5abaf2c7754f97719c293371_detail]: http://qiniu.mnclub.club/8f6c835e5abaf2c7754f97719c293371!detail
+[6537194b61f8a13b46fd0af60f960c17_detail]: http://qiniu.mnclub.club/6537194b61f8a13b46fd0af60f960c17!detail
+[4f84a3ae78d616470e81d59d9d07b0b5_detail]: http://qiniu.mnclub.club/4f84a3ae78d616470e81d59d9d07b0b5!detail

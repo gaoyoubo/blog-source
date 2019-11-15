@@ -15,7 +15,7 @@ date: 2019-07-22 12:32:02
 - 修复选中分类、标签展示之后从其他页面切换回来选中状态丢失的问题
 
 ## 功能预览
-![QQ20190124111534.png](http://file.mspring.org/FpVFNRfqb1r8SL8WmWPwrZwNqE2M)
+![QQ20190124111534.png](http://qiniu.mnclub.club/FpVFNRfqb1r8SL8WmWPwrZwNqE2M)
 
 ## 相关链接
 - 下载地址：[https://github.com/gaoyoubo/hexo-client/releases/tag/v1.2.9](https://github.com/gaoyoubo/hexo-client/releases/tag/v1.2.9)

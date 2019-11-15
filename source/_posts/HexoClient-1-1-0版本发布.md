@@ -21,7 +21,7 @@ date: 2018-03-19 21:47:22
 * Linux版本：请源码编译
 
 ## 最新截图
-![](http://file.mspring.org/75b72e173544f8d97bd439973e022f65)
-![](http://file.mspring.org/af961ed25d01cceb2bb64855324c9cc9)
-![](http://file.mspring.org/3376dc96e75b3719f1a40e65dd54b71e)
-![](http://file.mspring.org/8a017cf3cb56561da107383ac21da2df)
+![](http://qiniu.mnclub.club/75b72e173544f8d97bd439973e022f65)
+![](http://qiniu.mnclub.club/af961ed25d01cceb2bb64855324c9cc9)
+![](http://qiniu.mnclub.club/3376dc96e75b3719f1a40e65dd54b71e)
+![](http://qiniu.mnclub.club/8a017cf3cb56561da107383ac21da2df)

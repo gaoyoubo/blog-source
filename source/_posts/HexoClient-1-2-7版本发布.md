@@ -14,7 +14,7 @@ date: 2019-05-15 15:31:48
 - 升级markdown编辑器版本
 
 ## 功能预览
-![QQ20190124111534.png](http://file.mspring.org/FpVFNRfqb1r8SL8WmWPwrZwNqE2M)
+![QQ20190124111534.png](http://qiniu.mnclub.club/FpVFNRfqb1r8SL8WmWPwrZwNqE2M)
 
 ## 相关链接
 - 下载地址：[https://github.com/gaoyoubo/hexo-client/releases/tag/v1.2.7](https://github.com/gaoyoubo/hexo-client/releases/tag/v1.2.7)

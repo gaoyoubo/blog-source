@@ -27,6 +27,6 @@ date: 2016-02-02 18:20:38
 接下来，老子要写一个程序1000个线程，往死的给他提交垃圾数据，操！！！
 
 
-[7684840a5d6ba201b148dcdc9c5b93f0_detail]: http://file.mspring.org/7684840a5d6ba201b148dcdc9c5b93f0!detail
-[9daa2b6909de4a776239e1d9377f424a_detail]: http://file.mspring.org/9daa2b6909de4a776239e1d9377f424a!detail
-[d4d7512555bd8518ae3668691152a75b_detail]: http://file.mspring.org/d4d7512555bd8518ae3668691152a75b!detail
+[7684840a5d6ba201b148dcdc9c5b93f0_detail]: http://qiniu.mnclub.club/7684840a5d6ba201b148dcdc9c5b93f0!detail
+[9daa2b6909de4a776239e1d9377f424a_detail]: http://qiniu.mnclub.club/9daa2b6909de4a776239e1d9377f424a!detail
+[d4d7512555bd8518ae3668691152a75b_detail]: http://qiniu.mnclub.club/d4d7512555bd8518ae3668691152a75b!detail

@@ -82,7 +82,7 @@ Python 3.4.2
 # update-alternatives --config python
 ```
 
-![img](http://file.mspring.org/200957z4622lp83l3z0kmr.png)
+![img](http://qiniu.mnclub.club/200957z4622lp83l3z0kmr.png)
 
 ```
 # python --version

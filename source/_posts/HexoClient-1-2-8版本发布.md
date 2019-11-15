@@ -13,7 +13,7 @@ date: 2019-07-16 19:18:06
 - feature：新增Google Analytics支持，只会搜集用户页面点击数据，请放心使用。代码更改详见：https://github.com/gaoyoubo/hexo-client/commit/2679449ab20fd04d094f238f0b6053bffdebdb3e
 
 ## 功能预览
-![QQ20190124111534.png](http://file.mspring.org/FpVFNRfqb1r8SL8WmWPwrZwNqE2M)
+![QQ20190124111534.png](http://qiniu.mnclub.club/FpVFNRfqb1r8SL8WmWPwrZwNqE2M)
 
 ## 相关链接
 - 下载地址：[https://github.com/gaoyoubo/hexo-client/releases/tag/v1.2.8](https://github.com/gaoyoubo/hexo-client/releases/tag/v1.2.8)
