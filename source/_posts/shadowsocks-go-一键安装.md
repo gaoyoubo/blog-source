@@ -2,11 +2,13 @@
 title: shadowsocks go 一键安装
 tags:
   - shadowsocks
-originContent: ''
 categories:
   - 程序员
 toc: true
+originContent: ''
+date: 2019-12-24 14:39:06
 ---
+
 
 ## 本脚本适用环境：
 系统支持：CentOS，Debian，Ubuntu
