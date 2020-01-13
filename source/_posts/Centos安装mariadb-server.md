@@ -2,7 +2,6 @@
 title: Centos安装mariadb-server
 tags:
   - mariadb
-originContent: ''
 categories:
   - 程序员
 toc: true
