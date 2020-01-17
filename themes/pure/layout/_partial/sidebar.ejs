@@ -1,15 +1,5 @@
 <aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
   <div class="slimContent">
-    <script type="text/javascript">
-      (function () {
-        var s = "_" + Math.random().toString(36).slice(2);
-        document.write('<div style="" id="' + s + '"></div>');
-        (window.slotbydup = window.slotbydup || []).push({
-          id: "u3794650",
-          container: s
-        });
-      })();
-    </script>
     <% theme.widgets.forEach(function(widget){ %>
       <%- partial('_widget/' + widget) %>
     <% }) %>
