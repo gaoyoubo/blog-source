@@ -8,7 +8,7 @@ toc: true
 date: 2019-12-25 10:56:15
 ---
 
-## 安装
+## 安装111
 
 ```bash
 yum install mariadb-server
