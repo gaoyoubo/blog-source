@@ -25,8 +25,11 @@ jobs:
         npm install
     - name: hexo deploy
       run: |
+        sed -i "s/GH_TOKEN/${{ GH_TOKEN }}/g" ./_config.yml
         git config --global user.name "gaoyoubo"
         git config --global user.email "gaoyoubo@foxmail.com"
         hexo clean
         hexo generate
         hexo deploy
+      env:
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
