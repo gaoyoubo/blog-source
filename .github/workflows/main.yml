@@ -1,24 +1,31 @@
-name: hexo-deploy
+name: Node CI
 
 on: [push]
 
 jobs:
   build:
-    name: Build
+
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
     steps:
-    - name: Clean
-      uses: heowc/action-hexo@master
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
       with:
-        args: clean
-    - name: Generate
-      uses: heowc/action-hexo@master
-      with:
-        args: generate
-    - name: Deploy
-      uses: heowc/action-hexo@master
-      env:
-        EMAIL: gaoyoubo@foxmail.com
-        NAME: gaoyoubo
-      with:
-        args: deploy
+        node-version: ${{ matrix.node-version }}
+    - name: install hexo-cli
+      run: |
+        npm install hexo-cli -g
+    - name: install dependencies
+      run: |
+        npm install
+        hexo server
+    - name: hexo deploy
+      run: |
+        git config --global user.name "gaoyoubo"
+        git config --global user.email "gaoyoubo@foxmail.com"
+        hexo deploy
