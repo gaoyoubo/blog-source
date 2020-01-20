@@ -1,4 +1,4 @@
-name: Node CI
+name: hexo-deploy
 
 on: [push]
 
@@ -28,4 +28,6 @@ jobs:
       run: |
         git config --global user.name "gaoyoubo"
         git config --global user.email "gaoyoubo@foxmail.com"
+        hexo clean
+        hexo generate
         hexo deploy
