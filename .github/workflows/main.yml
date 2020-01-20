@@ -23,7 +23,6 @@ jobs:
     - name: install dependencies
       run: |
         npm install
-        hexo server
     - name: hexo deploy
       run: |
         git config --global user.name "gaoyoubo"
