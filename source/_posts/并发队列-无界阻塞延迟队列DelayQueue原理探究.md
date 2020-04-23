@@ -17,7 +17,7 @@ date: 2018-03-31 13:56:30
 DelayQueue队列中每个元素都有个过期时间，并且队列是个优先级队列，当从队列获取元素时候，只有过期元素才会出队列。
 
 ## DelayQueue类图结构
-![](http://qiniu.mnclub.club/2346ca43fe3c972b6bb4beab5edf1328)
+![](https://file.mspring.org/images/blog/2346ca43fe3c972b6bb4beab5edf1328)
 
 如图DelayQueue中内部使用的是PriorityQueue存放数据，使用ReentrantLock实现线程同步，可知是阻塞队列。另外队列里面的元素要实现Delayed接口，一个是获取当前剩余时间的接口，一个是元素比较的接口，因为这个是有优先级的队列。
 

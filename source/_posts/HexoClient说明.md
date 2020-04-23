@@ -20,9 +20,9 @@ date: 2018-02-24 14:53:10
 - 文章支持七牛图片上传
 
 ### 截屏预览
-![](http://qiniu.mnclub.club/66e3d556553c271fa6bbdd8ee6c02fe7!detail)
-![](http://qiniu.mnclub.club/f2226b4d4256554c4b253af9f8b2e260!detail)
-![](http://qiniu.mnclub.club/d24d7e4cbced83fa8d34268282dc8fb3!detail)
+![](https://file.mspring.org/images/blog/66e3d556553c271fa6bbdd8ee6c02fe7!detail)
+![](https://file.mspring.org/images/blog/f2226b4d4256554c4b253af9f8b2e260!detail)
+![](https://file.mspring.org/images/blog/d24d7e4cbced83fa8d34268282dc8fb3!detail)
 
 ### TODO
 - 文章详情页优化

@@ -17,4 +17,4 @@ date: 2018-08-07 11:15:51
 
 mac版本下载地址：[https://pan.baidu.com/s/1VuJIOoltpsTwnurn9aVQXw](https://pan.baidu.com/s/1VuJIOoltpsTwnurn9aVQXw)
 
-![](http://qiniu.mnclub.club/8b299e7bad6e69b7612cdee592019bf9!detail)
+![](https://file.mspring.org/images/blog/8b299e7bad6e69b7612cdee592019bf9!detail)
