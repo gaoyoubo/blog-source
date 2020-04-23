@@ -70,7 +70,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar: http://qiniu.mnclub.club/d18eda047175ea44c20850c765e1f1ec!detail
+avatar: https://file.mspring.org/images/blog/avatar.jpg
 
 #是否开启分享
 share_jia: true
