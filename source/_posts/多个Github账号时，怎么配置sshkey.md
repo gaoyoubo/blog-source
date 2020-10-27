@@ -31,7 +31,7 @@ IdentityFile ~/.ssh/id_rsa
 Host github_2.com
 HostName github.com
 PreferredAuthentications publickey
-IdentityFile ~/.ssh/id_rsa2  # 这里指定下锁使用的公钥文件名，就是我们上一步新生成的那个。
+IdentityFile ~/.ssh/id_rsa2  # 这里指定下所使用的公钥文件名，就是我们上一步新生成的那个。
 ```
 
 ## 使用第二个sshkey配置
