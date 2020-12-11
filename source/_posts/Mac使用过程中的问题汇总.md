@@ -1,7 +1,7 @@
 ---
 title: Mac使用过程中的问题汇总
-tags: []
-originContent: ''
+tags:
+  - mac
 categories: []
 toc: false
 date: 2020-11-25 11:18:00
@@ -14,4 +14,3 @@ date: 2020-11-25 11:18:00
 ```shell
 killall ControlStrip
 ```
-
