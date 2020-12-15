@@ -14,3 +14,10 @@ date: 2020-11-25 11:18:00
 ```shell
 killall ControlStrip
 ```
+
+## 清理dns缓存
+
+```shell
+sudo killall -HUP mDNSResponder
+```
+
