@@ -21,3 +21,7 @@ killall ControlStrip
 sudo killall -HUP mDNSResponder
 ```
 
+## iterm2 lzrz 功能配置
+
+解决办法：[https://www.mspring.org/2021/01/19/mac-iterm2-rz%E4%B8%8Esz%E7%9A%84%E5%8A%9F%E8%83%BD/](https://www.mspring.org/2021/01/19/mac-iterm2-rz%E4%B8%8Esz%E7%9A%84%E5%8A%9F%E8%83%BD/)
+
