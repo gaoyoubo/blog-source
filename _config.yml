@@ -87,6 +87,8 @@ pagination_dir: page
 ## yilia主题首页：https://github.com/litten/hexo-theme-yilia
 ## pure主题首页：https://github.com/cofess/hexo-theme-pure
 ## anatole主题首页：https://github.com/Ben02/hexo-theme-Anatole
+## hexo-theme-aomori：https://github.com/lh1me/hexo-theme-aomori
+## hexo-theme-icarus：https://github.com/ppoffice/hexo-theme-icarus
 theme: pure
 
 # Deployment
