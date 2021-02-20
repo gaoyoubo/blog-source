@@ -1,9 +1,0 @@
-<% if (post.comments) { %>
-    <% if (theme.comment.type === 'changyan') { %>
-        <section id="comments"><%- partial('comment/changyan') %></section>
-    <% } else if (theme.comment.type === 'gitalk') {%>
-        <%- partial('comment/gitalk') %>
-    <% } else if (theme.comment.type === 'valine') {%>
-        <%- partial('comment/valine') %>
-    <% } %>
-<% } %>
