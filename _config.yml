@@ -8,7 +8,7 @@ subtitle: 临渊羡鱼，不如退而结网。
 description:
 author: 雾非雾的情思
 language: zh-CN
-timezone:
+timezone: ""
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -42,13 +42,13 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-  
+
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
 
@@ -61,9 +61,9 @@ tag_generator:
   per_page: 100
 
 # category
-category_generator: 
+category_generator:
   per_page: 100
-  
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -89,16 +89,16 @@ pagination_dir: page
 ## anatole主题首页：https://github.com/Ben02/hexo-theme-Anatole
 ## hexo-theme-aomori：https://github.com/lh1me/hexo-theme-aomori
 ## hexo-theme-icarus：https://github.com/ppoffice/hexo-theme-icarus
-theme: pure
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-- type: git
-  # repo: git@github.com:gaoyoubo/blog.mspring.org.git
-  # 下方的gh_token会被.travis.yml中sed命令替换
-  repo: https://GH_TOKEN@github.com/gaoyoubo/blog.mspring.org.git
-  branch: master
+  - type: git
+    # repo: git@github.com:gaoyoubo/blog.mspring.org.git
+    # 下方的gh_token会被.travis.yml中sed命令替换
+    repo: https://GH_TOKEN@github.com/gaoyoubo/blog.mspring.org.git
+    branch: master
 
 jsonContent:
   meta: true
