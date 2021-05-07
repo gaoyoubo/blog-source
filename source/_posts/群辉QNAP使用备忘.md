@@ -18,7 +18,7 @@ date: 2021-01-22 22:13:31
 
 实际文件目录在：/share/...
 
-![](https://file.mspring.org/picgo/20210122221214.png)
+![](http://file.mspring.org/picgo/20210122221214.png)
 
 ## 备忘
 

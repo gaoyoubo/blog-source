@@ -15,8 +15,8 @@ date: 2019-08-12 14:43:10
 - 修复Windows系统下的一个样式错误。[#65](https://github.com/gaoyoubo/hexo-client/issues/65)
 
 ## 功能预览
-![image.png](https://file.mspring.org/images/blog/FsrXnCJWLcBk3Pfv3uzRI-XaV8FP)
-![image.png](https://file.mspring.org/images/blog/Fiw4MmJIqsSAqst2sAr-DizUD6kd)
+![image.png](http://file.mspring.org/images/blog/FsrXnCJWLcBk3Pfv3uzRI-XaV8FP)
+![image.png](http://file.mspring.org/images/blog/Fiw4MmJIqsSAqst2sAr-DizUD6kd)
 
 ## 相关链接
 - 下载地址：[https://github.com/gaoyoubo/hexo-client/releases/tag/v1.3.1](https://github.com/gaoyoubo/hexo-client/releases/tag/v1.3.1)

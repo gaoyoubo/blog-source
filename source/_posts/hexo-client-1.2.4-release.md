@@ -22,7 +22,7 @@ originContent: >-
 
   ## 功能预览
 
-  ![QQ20190124111534.png](https://file.mspring.org/images/blog/FpVFNRfqb1r8SL8WmWPwrZwNqE2M)
+  ![QQ20190124111534.png](http://file.mspring.org/images/blog/FpVFNRfqb1r8SL8WmWPwrZwNqE2M)
 categories:
   - 程序员
 toc: false
@@ -40,4 +40,4 @@ date: 2019-01-24 11:15:07
 - 修复若干BUG
 
 ## 功能预览
-![QQ20190124111534.png](https://file.mspring.org/images/blog/FpVFNRfqb1r8SL8WmWPwrZwNqE2M)
+![QQ20190124111534.png](http://file.mspring.org/images/blog/FpVFNRfqb1r8SL8WmWPwrZwNqE2M)

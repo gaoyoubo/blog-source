@@ -10,7 +10,7 @@ originContent: >
   是一款开源的视觉处理库，基于GPLv2协议，对各种常用计算机视觉库封装后的一组jar包，封装了OpenCV、ffmpeg、videoInput...等计算机视觉编程人员常用库的接口。
 
 
-  ![](https://file.mspring.org/images/blog/88730fba3d24588aa3747c56c3fa40a9)
+  ![](http://file.mspring.org/images/blog/88730fba3d24588aa3747c56c3fa40a9)
 
 
 
@@ -133,7 +133,7 @@ date: 2018-09-06 19:43:52
 ## JavaCV是什么
 > JavaCV 是一款开源的视觉处理库，基于GPLv2协议，对各种常用计算机视觉库封装后的一组jar包，封装了OpenCV、ffmpeg、videoInput...等计算机视觉编程人员常用库的接口。
 
-![](https://file.mspring.org/images/blog/88730fba3d24588aa3747c56c3fa40a9)
+![](http://file.mspring.org/images/blog/88730fba3d24588aa3747c56c3fa40a9)
 
 
 ## maven引用

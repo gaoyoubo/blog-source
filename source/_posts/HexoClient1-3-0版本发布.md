@@ -14,11 +14,11 @@ date: 2019-08-02 13:30:52
 ## 更新内容
 - 修复阿里云oss图片上传后url不正确的问题。[#60](https://github.com/gaoyoubo/hexo-client/issues/60)
 - 支持一键调用`hexo generate -d`命令发布文章，thanks [EVINK](https://github.com/EVINK)
-![image.png](https://file.mspring.org/images/blog/FkefJrKFFG3yQp6lumRbJujUgDlr)
+![image.png](http://file.mspring.org/images/blog/FkefJrKFFG3yQp6lumRbJujUgDlr)
 
 ## 功能预览
-![image.png](https://file.mspring.org/images/blog/FsrXnCJWLcBk3Pfv3uzRI-XaV8FP)
-![image.png](https://file.mspring.org/images/blog/Fiw4MmJIqsSAqst2sAr-DizUD6kd)
+![image.png](http://file.mspring.org/images/blog/FsrXnCJWLcBk3Pfv3uzRI-XaV8FP)
+![image.png](http://file.mspring.org/images/blog/Fiw4MmJIqsSAqst2sAr-DizUD6kd)
 
 ## 相关链接
 - 下载地址：[https://github.com/gaoyoubo/hexo-client/releases/tag/v1.3.0](https://github.com/gaoyoubo/hexo-client/releases/tag/v1.3.0)

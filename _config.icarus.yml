@@ -4,7 +4,7 @@ version: 4.0.0
 variant: default
 # Path or URL to the website's logo
 # logo: /img/logo.svg
-logo: https://file.mspring.org/images/blog/avatar.jpg
+logo: http://file.mspring.org/images/blog/avatar.jpg
 # Page metadata configurations
 head:
   # URL or path to the website's icon
@@ -217,7 +217,7 @@ widgets:
     # Author's current location
     location: Wuhan, China
     # URL or path to the avatar image
-    avatar: https://file.mspring.org/images/blog/avatar.jpg
+    avatar: http://file.mspring.org/images/blog/avatar.jpg
     # Whether show the rounded avatar image
     avatar_rounded: true
     # Email address for the Gravatar

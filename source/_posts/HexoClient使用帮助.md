@@ -19,7 +19,7 @@ HexoClient是一款跨平台的[Hexo](https://hexo.io)管理工具。
 - QQ群号：618213781
 - QQ群二维码
 
-![](https://file.mspring.org/images/blog/FjPi6HPuOAQwwaNKKyJzIbybJfWE)
+![](http://file.mspring.org/images/blog/FjPi6HPuOAQwwaNKKyJzIbybJfWE)
 
 # 项目背景
 我是从2011年开始写博客，在早期的时候`wordpress`、`zblog`、`emlog`等开源的博客程序都是用过。但是本着生命在于则疼的原则，后来我自己使用Java写了个简单的Blog程序( https://gitee.com/gaoyoubo/mlog ) 将其托管在阿里云服务器上。但是后面觉得为了一个博客单独买一台服务器成本比较高，所以后来改用`Hexo`+`Github Pages`，这样每年基本只需要几十块钱的域名费用即可。开始使用Hexo的时候也只是按照常规方式使用，后来了解到了`electron`框架，所以决定利用`electron`来为hexo写一个客户端。开始完全是为了自用，开源出去之后反响还不错，收到很多hexo博客党的反馈。
@@ -65,16 +65,16 @@ hexo server
 
 #### 第一步：生成access token
 进入Github个人主页，找到：Settings -> Developer settings -> Personal access tokens，然后取`Generate new token`，参照下图配置即可。
-![](https://file.mspring.org/images/blog/a43317347f11ba251d312d68697475ef!detail)
+![](http://file.mspring.org/images/blog/a43317347f11ba251d312d68697475ef!detail)
 这里生成的Token，接下来会用到，请先妥善保存好。
 
 #### 第二步：注册并开启Travis-CI项目构建
 使用 `GitHub账户登录` [Travis-CI官网](https://travis-ci.org) ，进去后能看到已经自动关联了 GitHub 上的仓库。这里我们选择需要启用的项目，即 `blog-source`。然后点击后面的`Settings`进入设置界面。
-![](https://file.mspring.org/images/blog/bb9afa5fd9a4c846fe8a53767931126d!detail)
+![](http://file.mspring.org/images/blog/bb9afa5fd9a4c846fe8a53767931126d!detail)
 
 #### 第三步：配置Travis-CI自动构建
 进入设置界面后可以参考我的配置：
-![](https://file.mspring.org/images/blog/33e9d652fa14373f0cf8cc1cef38270e!detail)
+![](http://file.mspring.org/images/blog/33e9d652fa14373f0cf8cc1cef38270e!detail)
 
 配置主要注意一下两点即可：
 - Build pushed branches
@@ -166,7 +166,7 @@ HexoClient的数据加载是完全依赖于Hexo的，所以在打开HexoClient�
 ## v1.3.0 (2019-08-02)
 - 修复阿里云oss图片上传后url不正确的问题。[#60](https://github.com/gaoyoubo/hexo-client/issues/60)
 - 支持一键调用`hexo generate -d`命令发布文章，thanks [EVINK](https://github.com/EVINK)
-![image.png](https://file.mspring.org/images/blog/FkefJrKFFG3yQp6lumRbJujUgDlr)
+![image.png](http://file.mspring.org/images/blog/FkefJrKFFG3yQp6lumRbJujUgDlr)
 
 ## v1.2.9 (2019-07-19)
 - 支持草稿功能
