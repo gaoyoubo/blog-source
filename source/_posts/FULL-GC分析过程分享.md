@@ -103,4 +103,4 @@ count   — 打印次数，如果缺省则打印无数次
 
 下面是Meta2.0压测曾遇到的FULL GC频繁问题的分析结果，比较明显，DispatchRequest对象有4千多万个，一共超过2G，并最终导致OOM
 
-![83f48d2a9de38682ed93018f08211d9e_detail](http://file.mspring.org/images/blog/83f48d2a9de38682ed93018f08211d9e!detail)
+![83f48d2a9de38682ed93018f08211d9e_detail](https://file.mspring.org/images/blog/83f48d2a9de38682ed93018f08211d9e!detail)

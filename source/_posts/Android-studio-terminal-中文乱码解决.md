@@ -9,7 +9,7 @@ date: 2018-03-10 11:45:36
 ---
 
 Android studio terminal中文乱码，如下图：
-![](http://file.mspring.org/images/blog/68c9e13df012b7ac702f5c98716c6225)
+![](https://file.mspring.org/images/blog/68c9e13df012b7ac702f5c98716c6225)
 
 解决办法打开`~/.zshrc`找到如下：
 ```
@@ -17,4 +17,4 @@ Android studio terminal中文乱码，如下图：
 # export LANG=en_US.UTF-8
 ```
 将 `export LANG=en_US.UTF-8` 这一行解注。
-![](http://file.mspring.org/images/blog/b07a6381b955735cf8c2b72746b57e9b)
+![](https://file.mspring.org/images/blog/b07a6381b955735cf8c2b72746b57e9b)

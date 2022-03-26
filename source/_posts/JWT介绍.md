@@ -21,7 +21,7 @@ originContent: >-
   5. 服务器收到 session_id，找到前期保存的数据，由此得知用户的身份。
 
 
-  ![image.png](http://file.mspring.org/images/blog/Fk90d0HAnG1mMX1hyG1WrOh6qjnl)
+  ![image.png](https://file.mspring.org/images/blog/Fk90d0HAnG1mMX1hyG1WrOh6qjnl)
 
 
   这种模式的问题在于，扩展性不好。单机当然没有问题，如果是服务器集群，或者是跨域的服务导向架构，就要求 session 数据共享，每台服务器都能够读取
@@ -35,7 +35,7 @@ originContent: >-
   数据持久化，写入数据库或别的持久层。各种服务收到请求后，都向持久层请求数据。这种方案的优点是架构清晰，缺点是工程量比较大。另外，持久层万一挂了，就会单点失败。
 
 
-  ![image.png](http://file.mspring.org/images/blog/Fvvi55Uc24iyk-WIiB_D81JY7mTz)
+  ![image.png](https://file.mspring.org/images/blog/Fvvi55Uc24iyk-WIiB_D81JY7mTz)
 
 
   另一种方案是服务器索性不保存 session 数据了，所有数据都保存在客户端，每次请求都发回服务器。JWT 就是这种方案的一个代表。
@@ -66,7 +66,7 @@ originContent: >-
 
   实际的 JWT 大概就像下面这样。
 
-  ![image.png](http://file.mspring.org/images/blog/FmS-44Gi8Ys2j9KPAlhJCbxwBOff)
+  ![image.png](https://file.mspring.org/images/blog/FmS-44Gi8Ys2j9KPAlhJCbxwBOff)
 
 
   它是一个很长的字符串，中间用点`.`分隔成三个部分。注意，JWT 内部是没有换行的，这里只是为了便于展示，将它写成了几行。
@@ -88,7 +88,7 @@ originContent: >-
 
   ```
 
-  ![image.png](http://file.mspring.org/images/blog/FvhP9xjo2LBg-e747BzPEYeteJ_2)
+  ![image.png](https://file.mspring.org/images/blog/FvhP9xjo2LBg-e747BzPEYeteJ_2)
 
   下面依次介绍这三个部分。
 
@@ -255,7 +255,7 @@ JWT全称为：JSON Web Token是目前最流行的跨域认证的解决方案。
 4. 用户随后的每一次请求，都会通过 Cookie，将 session_id 传回服务器。
 5. 服务器收到 session_id，找到前期保存的数据，由此得知用户的身份。
 
-![image.png](http://file.mspring.org/images/blog/Fk90d0HAnG1mMX1hyG1WrOh6qjnl)
+![image.png](https://file.mspring.org/images/blog/Fk90d0HAnG1mMX1hyG1WrOh6qjnl)
 
 这种模式的问题在于，扩展性不好。单机当然没有问题，如果是服务器集群，或者是跨域的服务导向架构，就要求 session 数据共享，每台服务器都能够读取 session。
 
@@ -263,7 +263,7 @@ JWT全称为：JSON Web Token是目前最流行的跨域认证的解决方案。
 
 一种解决方案是 session 数据持久化，写入数据库或别的持久层。各种服务收到请求后，都向持久层请求数据。这种方案的优点是架构清晰，缺点是工程量比较大。另外，持久层万一挂了，就会单点失败。
 
-![image.png](http://file.mspring.org/images/blog/Fvvi55Uc24iyk-WIiB_D81JY7mTz)
+![image.png](https://file.mspring.org/images/blog/Fvvi55Uc24iyk-WIiB_D81JY7mTz)
 
 另一种方案是服务器索性不保存 session 数据了，所有数据都保存在客户端，每次请求都发回服务器。JWT 就是这种方案的一个代表。
 
@@ -282,7 +282,7 @@ JWT的原则是在服务器身份验证之后，将生成一个JSON对象并将�
 
 ## JWT的数据结构
 实际的 JWT 大概就像下面这样。
-![image.png](http://file.mspring.org/images/blog/FmS-44Gi8Ys2j9KPAlhJCbxwBOff)
+![image.png](https://file.mspring.org/images/blog/FmS-44Gi8Ys2j9KPAlhJCbxwBOff)
 
 它是一个很长的字符串，中间用点`.`分隔成三个部分。注意，JWT 内部是没有换行的，这里只是为了便于展示，将它写成了几行。
 
@@ -294,7 +294,7 @@ JWT 的三个部分依次如下。
 ```
 Header.Payload.Signature
 ```
-![image.png](http://file.mspring.org/images/blog/FvhP9xjo2LBg-e747BzPEYeteJ_2)
+![image.png](https://file.mspring.org/images/blog/FvhP9xjo2LBg-e747BzPEYeteJ_2)
 下面依次介绍这三个部分。
 
 ### Header
