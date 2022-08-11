@@ -2,12 +2,13 @@
 title: Alfred 使用iTerm
 tags:
   - 程序员
-originContent: ''
 categories:
   - 程序员
 toc: false
 date: 2022-08-11 12:00:51
 ---
+
+> ADD：我在网上找到了一篇更完整的文章，文章中详细介绍了，这么配合使用alfred + iTerm2 + ssh config快速连接远程服务器：https://juejin.cn/post/6844903909916426248
 
 Alfred执行命令时默认使用的是MaxOS系统自带的Terminal，而我平时使用的都是iTerm。在Github上找到了解决方案：https://github.com/vitorgalvao/custom-alfred-iterm-scripts
 
