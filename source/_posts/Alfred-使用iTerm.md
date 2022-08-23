@@ -14,7 +14,7 @@ Alfred执行命令时默认使用的是MaxOS系统自带的Terminal，而我平�
 
 设置方式直接截图说明：
 
-![WechatIMG62.png](http://file.mspring.org/hexo-client/2022/08/11/2d3e0dec-99d8-4a6b-bb61-7b486f8fed93.png)
+![WechatIMG62.png](https://file.mspring.org/hexo-client/2022/08/11/2d3e0dec-99d8-4a6b-bb61-7b486f8fed93.png)
 
 配置内容如下（这个内容是我从上面那个Github项目中Copy出来的，可以自行去项目中Copy最新的）：
 
